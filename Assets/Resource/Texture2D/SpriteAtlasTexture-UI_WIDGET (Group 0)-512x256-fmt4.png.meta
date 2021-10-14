@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 22860b8f5e0e10b4686c188fd5e05ab6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: JoypadLB
+  - first:
+      213: 21300002
+    second: JoypadRT
+  - first:
+      213: 21300004
+    second: JoypadRotation
+  - first:
+      213: 21300006
+    second: JoypadX
+  - first:
+      213: 21300008
+    second: JoypadB
+  - first:
+      213: 21300010
+    second: JoypadY
+  - first:
+      213: 21300012
+    second: JoypadRB
+  - first:
+      213: 21300014
+    second: Left
+  - first:
+      213: 21300016
+    second: Right
+  - first:
+      213: 21300018
+    second: JoypadMove
+  - first:
+      213: 21300020
+    second: SliderBkgrnd
+  - first:
+      213: 21300022
+    second: Focus
+  - first:
+      213: 21300024
+    second: JoypadA
+  - first:
+      213: 21300026
+    second: SliderMarker
+  - first:
+      213: 21300028
+    second: blank
+  - first:
+      213: 21300030
+    second: buttonOver
+  - first:
+      213: 21300032
+    second: button
+  - first:
+      213: 21300034
+    second: PopupBox
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 512
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JoypadLB
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 96.07612
+        width: 44
+        height: 34.89713
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4849649}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -17.52468}
+        - {x: -22, y: -15.52468}
+        - {x: -22, y: 9.475317}
+        - {x: -11, y: 17.47532}
+        - {x: 22, y: 17.47532}
+        - {x: 22, y: -17.52468}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoypadRT
+      rect:
+        serializedVersion: 2
+        x: 209.0267
+        y: 137.0761
+        width: 39.93696
+        height: 39.84776
+      alignment: 9
+      pivot: {x: 0.5001194, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.995232, y: -20}
+        - {x: -19.99523, y: -15}
+        - {x: -19.99523, y: 20}
+        - {x: 20.00477, y: 20}
+        - {x: 20.00477, y: -20}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoypadRotation
+      rect:
+        serializedVersion: 2
+        x: 342.0268
+        y: 91.05132
+        width: 39.9465
+        height: 39.89737
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.4999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.999998, y: -20}
+        - {x: -20, y: -14}
+        - {x: -20, y: 13}
+        - {x: -18, y: 20}
+        - {x: 14, y: 20}
+        - {x: 20, y: 14}
+        - {x: 20, y: -11}
+        - {x: 18, y: -20}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoypadX
+      rect:
+        serializedVersion: 2
+        x: 121.0267
+        y: 144.0513
+        width: 39.9465
+        height: 39.89737
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.4999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.999998, y: -20}
+        - {x: -20, y: -14}
+        - {x: -20, y: 13}
+        - {x: -18, y: 20}
+        - {x: 14, y: 20}
+        - {x: 20, y: 14}
+        - {x: 20, y: -11}
+        - {x: 18, y: -20}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoypadB
+      rect:
+        serializedVersion: 2
+        x: 170.0267
+        y: 95.05132
+        width: 39.9465
+        height: 39.89737
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.4999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.999998, y: -20}
+        - {x: -20, y: -14}
+        - {x: -20, y: 13}
+        - {x: -18, y: 20}
+        - {x: 14, y: 20}
+        - {x: 20, y: 14}
+        - {x: 20, y: -11}
+        - {x: 18, y: -20}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoypadY
+      rect:
+        serializedVersion: 2
+        x: 0.02675104
+        y: 188.0513
+        width: 39.9465
+        height: 39.89737
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.4999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.999998, y: -20}
+        - {x: -20, y: -14}
+        - {x: -20, y: 13}
+        - {x: -18, y: 20}
+        - {x: 14, y: 20}
+        - {x: 20, y: 14}
+        - {x: 20, y: -11}
+        - {x: 18, y: -20}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoypadRB
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 179.0761
+        width: 44
+        height: 34.89713
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4849649}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -17.52468}
+        - {x: -22, y: -17.52468}
+        - {x: -22, y: 17.47532}
+        - {x: 20, y: 17.47532}
+        - {x: 22, y: 11.47532}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 25
+        width: 67
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: -34}
+        - {x: -33.5, y: -34}
+        - {x: -33.5, y: 32}
+        - {x: -25.5, y: 34}
+        - {x: 20.5, y: 34}
+        - {x: 33.5, y: 17}
+        - {x: 33.5, y: -28}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 25
+        width: 67
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: -34}
+        - {x: -33.5, y: -34}
+        - {x: -33.5, y: 19}
+        - {x: -27.5, y: 34}
+        - {x: 18.5, y: 34}
+        - {x: 33.5, y: 21}
+        - {x: 33.5, y: -33}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoypadMove
+      rect:
+        serializedVersion: 2
+        x: 212.0267
+        y: 95.05132
+        width: 39.9465
+        height: 39.89737
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.4999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.999998, y: -20}
+        - {x: -20, y: -14}
+        - {x: -20, y: 13}
+        - {x: -18, y: 20}
+        - {x: 14, y: 20}
+        - {x: 20, y: 14}
+        - {x: 20, y: -11}
+        - {x: 18, y: -20}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SliderBkgrnd
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 160
+        width: 20
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 0, z: 6, w: 0}
+      outline:
+      - - {x: -10, y: -7}
+        - {x: -10, y: 7}
+        - {x: 10, y: 7}
+        - {x: 10, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus
+      rect:
+        serializedVersion: 2
+        x: 0.07612038
+        y: 160.0267
+        width: 21.84776
+        height: 25.9465
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: -13}
+        - {x: -11, y: -12}
+        - {x: -11, y: 11}
+        - {x: -10, y: 13}
+        - {x: -2, y: 13}
+        - {x: 11, y: 6.000002}
+        - {x: 11, y: -1.999998}
+        - {x: 4, y: -13}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JoypadA
+      rect:
+        serializedVersion: 2
+        x: 120.0267
+        y: 186.0513
+        width: 39.9465
+        height: 39.89737
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.4999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.999998, y: -20}
+        - {x: -20, y: -14}
+        - {x: -20, y: 13}
+        - {x: -18, y: 20}
+        - {x: 14, y: 20}
+        - {x: 20, y: 14}
+        - {x: 20, y: -11}
+        - {x: 18, y: -20}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SliderMarker
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 95
+        width: 47
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: -23.5}
+        - {x: -23.5, y: -16.5}
+        - {x: -23.5, y: 17.5}
+        - {x: -19.5, y: 23.5}
+        - {x: 17.5, y: 23.5}
+        - {x: 23.5, y: 21.5}
+        - {x: 23.5, y: -14.5}
+        - {x: 15.5, y: -23.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blank
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 133
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonOver
+      rect:
+        serializedVersion: 2
+        x: 0.02675098
+        y: 94.02675
+        width: 63.9465
+        height: 63.9465
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5000001}
+      border: {x: 9.973249, y: 9.973249, z: 9.973246, w: 9.973246}
+      outline:
+      - - {x: -31, y: -32}
+        - {x: -32, y: -28}
+        - {x: -32, y: 32}
+        - {x: 28, y: 32}
+        - {x: 31, y: 28}
+        - {x: 32, y: 25}
+        - {x: 32, y: -25}
+        - {x: 31, y: -28}
+        - {x: 28, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button
+      rect:
+        serializedVersion: 2
+        x: 408.0268
+        y: 25.02675
+        width: 61.9465
+        height: 61.9465
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5000001}
+      border: {x: 8.973249, y: 8.973249, z: 8.973246, w: 8.973246}
+      outline:
+      - - {x: -29, y: -31}
+        - {x: -31, y: -30}
+        - {x: -31, y: 31}
+        - {x: 29, y: 31}
+        - {x: 31, y: 28}
+        - {x: 31, y: -29}
+        - {x: 28, y: -31}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PopupBox
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 25
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+      outline:
+      - - {x: 32, y: -32}
+        - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

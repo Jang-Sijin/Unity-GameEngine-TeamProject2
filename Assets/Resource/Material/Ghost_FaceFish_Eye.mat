@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: Ghost_FaceFish_Eye
+  m_Shader: {fileID: 4800000, guid: bf3ad635b3184bc4aacb4b2ab7f68e31, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: 4ebad664563acdd47bc048063fe44800, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c0456bbea33989e49b4e920b3f954379, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMap:
+        m_Texture: {fileID: 2800000, guid: eff535e42142bbb4186192d588a9a154, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Compress: 1
+    - _Cutoff: 0.21
+    - _RimPower: 6
+    - _Sensitivity: 1
+    - _Shininess: 1
+    m_Colors:
+    - _Color: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+    - _LColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 0.1372549}
+    - _SColor: {r: 0.2152264, g: 0.1860402, b: 0.2279412, a: 1}
+    - _SpecColor: {r: 0.8512111, g: 0.9044118, b: 0.8956062, a: 1}

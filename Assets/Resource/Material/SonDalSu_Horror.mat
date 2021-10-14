@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: SonDalSu_Horror
+  m_Shader: {fileID: 4800000, guid: 40c5f874c03d84d41adaf2dcbd110d77, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: 2c230c07473dd0e4ca9f45ede3452417, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 278ed65ff3d81354ba9b8a7695fc8c6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: bc90b4a97d9b39743af09b5c1650771b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMap:
+        m_Texture: {fileID: 2800000, guid: 5049bf7d1770d4a4880098e3a166c527, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.8035715
+    - _RimPower: 6
+    - _Sensitivity: 1
+    - _Shininess: 0.453
+    m_Colors:
+    - _Color: {r: 0.6323529, g: 0.6323529, b: 0.6323529, a: 1}
+    - _LColor: {r: 0.7794118, g: 0.745026, b: 0.745026, a: 1}
+    - _RimColor: {r: 0.7205882, g: 0.7205882, b: 0.7205882, a: 0.08235294}
+    - _SColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.4788063, g: 0.5021895, b: 0.5294118, a: 1}

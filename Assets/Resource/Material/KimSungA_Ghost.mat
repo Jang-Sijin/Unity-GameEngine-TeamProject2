@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: KimSungA_Ghost
+  m_Shader: {fileID: 4800000, guid: 59d1a2b5ae1c4de47991355afa984a49, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: 2b15122b8af3ed14eb179b7cf6b54cca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4bdbbfd5a9a2e9043903f23d8b69acb9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: a8ffe6800a455da4891242440840d88b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMap:
+        m_Texture: {fileID: 2800000, guid: 7d7151ce821e0bd4da3694d8c6102fff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Compress: 1
+    - _Cutoff: 0.535
+    - _DissolvePower: 1
+    - _RimPower: 1.86
+    - _Sensitivity: 1
+    - _Shininess: 1
+    - _SliceAmount: 0
+    m_Colors:
+    - _Color: {r: 0.8529412, g: 0.8529412, b: 0.8529412, a: 1}
+    - _DissolveEmissionColor: {r: 0.6617647, g: 0, b: 0, a: 1}
+    - _LColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.7993079, g: 0.8997136, b: 0.9705882, a: 0.309}
+    - _SColor: {r: 0.2152264, g: 0.1860402, b: 0.2279412, a: 1}
+    - _SpecColor: {r: 0.5073529, g: 0.5073529, b: 0.5073529, a: 1}

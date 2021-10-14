@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: Rainy_Glass
+  m_Shader: {fileID: 4800000, guid: 2d2ce5c6ac42dea4785bc6d796d2f13f, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 14, y: 14}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: afd1732824b767d47b3ad450aeabce62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 67ee2566fbd0236499008d9e5feb87ec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RainFlow:
+        m_Texture: {fileID: 2800000, guid: de5a516c9c4f5d347b8c706c9ed9ec99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RainGradient:
+        m_Texture: {fileID: 2800000, guid: 736829b45394c3d45bf839cf6c66ef63, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _RainPower: 0
+    - _RainSpeed: 0
+    - _RainTilingX: 2.42
+    - _RainTilingY: 1.84
+    - _Rim: 0.01
+    - _RunTime: 0
+    - _Shininess: 0.11
+    - _Speed: 1
+    - _WaterContrast: 0.85
+    - _WaterLevel_Bump: 0.4807692
+    - _WaterLevel_Diffuse: 0.3269231
+    - _fallow: 0.5
+    - _level: 0.12
+    m_Colors:
+    - _Color: {r: 0.125, g: 0.1222426, b: 0.1222426, a: 0.141}
+    - _ReflectColor: {r: 0.2831365, g: 0.2925574, b: 0.3059701, a: 0.5019608}
+    - _SpecColor: {r: 0.2941176, g: 0.2941176, b: 0.2941176, a: 1}

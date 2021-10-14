@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0241f5c82db49547832345de63bf211, type: 3}
+  m_Name: DefaultStringsEN
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/DefaultStrings.xlsx
+  worksheetName: DefaultStringsEN
+  dataArray:
+  - id: RESOURCE_CHECK
+    text: Verifying resources.
+  - id: RESOURCE_DOWNLOAD_PROGRESS
+    text: Downloading resources. ({0}/{1}, {2}%)
+  - id: RESOURCE_DOWNLOAD_COMPLETE
+    text: Resource download is complete.
+  - id: RESOURCE_CHECK_COMPLETE
+    text: Resource verification is complete.
+  - id: INTRO_LOADING
+    text: Loading Intro...
+  - id: RESOURCE_DOWNLOAD_FAILE_MEMORY
+    text: Failed to download.<br>Insufficient memory available.
+  - id: CLOSE
+    text: Quit
+  - id: RESOURCE_DOWNLOAD_FAILE_RETRY
+    text: Failed to download.<br>Would you like to retry?
+  - id: RETRY
+    text: Retry
+  - id: RESOURCE_DOWNLOAD_DECOMPRESS
+    text: Extracting the resources.
+  - id: RESOURCE_DOWNLOAD_ALERT
+    text: 'Downloading game data to launch White Day: A Labyrinth Named School.<br>Please ensure you have a stable network connection while downloading the game.'
+  - id: RESOURCE_DOWNLOAD_ALERT_WIFI
+    text: (Additional charges may be incurred if you are using 3G/LTE data network.<br>We recommend you run the download using a Wi-Fi connection.)
+  - id: NETWORK_STATE_ALERT
+    text: Please check your network status and try again.
+  - id: CONFIRM
+    text: OK
+  - id: SERVER_CONNECT
+    text: Verifying user...
+  - id: CLIENT_VERSION_QUESTION
+    text: White Day has returned with new content and features.<br><br>We invite you to explore the depths of Yeondu High School, now darker than ever before.<br>(Pressing “OK” redirects you to the download site.)
+  - id: NETWORK_SEND_RETRY
+    text: Connection lost.<br>Try again?
+  - id: NOT_FIND_DEVICE_INFO
+    text: Unable to access device information.
+  - id: LICENSE_CHECK_APPLICATION_ERROR
+    text: An error has occurred. ({0})
+  - id: LICENSE_CHECK_RETRY
+    text: Failed to confirm verification information. ({0})
+  - id: LICENSE_CHECK_DONT_ALLOW
+    text: Failed to confirm purchase information.<br>Internet connection required.<br>({0})
+  - id: RESOURCE_CHECKSUM_POPUP_TITLE
+    text: Resource Integrity Check
+  - id: RESOURCE_CHECKSUM_POPUP_MESSAGE
+    text: Checking the newly downloaded game resources for errors.<br>(Resources will only be checked once.)<br>※ It may take a few minutes depending on the device.
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM_NEXT
+    text: Check Next Time
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM
+    text: Check Now
+  - id: RESOURCE_CHECKSUM_READY
+    text: Preparing for resource check.
+  - id: RESOURCE_CHECKSUM_PROGRESS
+    text: Resources are being checked. ({0}/{1})
+  - id: RESOURCE_CHECKSUM_COMPLETE
+    text: Resource check complete.
+  - id: RESOURCE_CHECKSUM_COMPLETE_TITLE
+    text: Integrity Check Completed
+  - id: RESOURCE_CHECKSUM_COMPLETE_MESSAGE
+    text: No errors found in the game resources.<br>Press [OK] to run the game.
+  - id: RESOURCE_CHECKSUM_ERROR_TITLE
+    text: Resource Error
+  - id: RESOURCE_CHECKSUM_ERROR_MESSAGE
+    text: An error in the game resources was found during the check.<br>Press [OK] to re-download the resource.
+  - id: INSTALL_TSTORE_ALERT
+    text: Please install TStore and try again.
+  - id: GAMECENTER_CONNECT
+    text: Connecting to Game Center...
+  - id: PLAYGAME_CONNECT
+    text: Connecting to the Play Game Services...
+  - id: RESOURCE_DOWNLOAD_UNZIP_FAILED_RETRY
+    text: Failed to extract.<br>Try again?
+  - id: UNABLE_TO_PLAY_ALERT
+    text: Unsupported device.<br>You cannot play White day on this device.<br>Please check the store description for more information on supported devices.
+  - id: UI_BUNDLE_DOWN_LOAD_TIP
+    text: '[White day] needs data network connection during launching.<br><br>It use only a little bit of data for user information checking<br> and does not use any data during game playing.'
+  - id: UI_ACCEPT
+    text: Accept
+  - id: UI_AGREEMENT
+    text: Terms of Use
+  - id: UI_TERMS
+    text: Privacy Policy
+  - id: UI_TITLE_TERMSOFUSE
+    text: ROI Games Terms of Use
+  - id: SPEC_CHECK_RESULT_FAIL
+    text: Your device performance is not enough to play the White Day.<br>Please check the game information in store for details.<br>Quit the application.
+  - id: SPEC_CHECK_RESULT_POSSIBLE
+    text: The Game is launched as the minimum functional specification mode because lack of device performance.
+  - id: SPEC_CHECK_RESULT_BUTTON
+    text: OK
+  - id: UI_POPUP_MSG_GAMECENTER_CONNECT
+    text: It is not connected to Game Center.<br>Do you want to connect to Game Center?
+  - id: CANCEL
+    text: Cancel

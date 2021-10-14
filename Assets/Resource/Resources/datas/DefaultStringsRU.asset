@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0241f5c82db49547832345de63bf211, type: 3}
+  m_Name: DefaultStringsRU
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/DefaultStrings.xlsx
+  worksheetName: DefaultStringsRU
+  dataArray:
+  - id: RESOURCE_CHECK
+    text: Проверка ресурсов.
+  - id: RESOURCE_DOWNLOAD_PROGRESS
+    text: Загрузки ресурсов. ({0}/{1}, {2}%)
+  - id: RESOURCE_DOWNLOAD_COMPLETE
+    text: Загрузка ресурсов завершена.
+  - id: RESOURCE_CHECK_COMPLETE
+    text: Проверка целостности ресурсов.
+  - id: INTRO_LOADING
+    text: Загрузка заставки...
+  - id: RESOURCE_DOWNLOAD_FAILE_MEMORY
+    text: Ошибка загрузки.<br>В недостаточно памяти.
+  - id: CLOSE
+    text: Выйти
+  - id: RESOURCE_DOWNLOAD_FAILE_RETRY
+    text: Не удалось скачать.<br>Вы хотели повторить?
+  - id: RETRY
+    text: Повторить
+  - id: RESOURCE_DOWNLOAD_DECOMPRESS
+    text: Распаковка ресурсов.
+  - id: RESOURCE_DOWNLOAD_ALERT
+    text: 'Загрузка данных игры White Day: A Labyrinth Named School.<br>Пожалуйста убедитесь, что у вас стабильное подключение к сети во время загрузки.'
+  - id: RESOURCE_DOWNLOAD_ALERT_WIFI
+    text: (Дополнительные расходы могут быть понесены, если вы используете 3G/LTE.<br>мы рекомендуем Вам выполнить загрузку, используя Wi-Fi соединение.)
+  - id: NETWORK_STATE_ALERT
+    text: Пожалуйста, проверьте состояние вашей сети и попробуйте еще раз.
+  - id: CONFIRM
+    text: Хорошо
+  - id: SERVER_CONNECT
+    text: Проверка пользователя...
+  - id: CLIENT_VERSION_QUESTION
+    text: White Day вернулся с новым содержанием и особенностями.<br><br>мы приглашаем Вас исследовать глубины школе Ёнту, теперь лучше, чем когда-либо было прежде.<br>(нажав “Хорошо”, вы переместитесь на страницу загрузки.)
+  - id: NETWORK_SEND_RETRY
+    text: Связь прервана.<br>Попробовать снова?
+  - id: NOT_FIND_DEVICE_INFO
+    text: Не можем получить доступ к информации об устройстве.
+  - id: LICENSE_CHECK_APPLICATION_ERROR
+    text: Ошибка. ({0})
+  - id: LICENSE_CHECK_RETRY
+    text: Не удалось подтвердить информацию. ({0})
+  - id: LICENSE_CHECK_DONT_ALLOW
+    text: Не удалось получить историю покупок.<br>Пожалуйста, проверьте состояние сети и повторите попытку.<br>({0})
+  - id: RESOURCE_CHECKSUM_POPUP_TITLE
+    text: Проверить Целостность Ресурсов
+  - id: RESOURCE_CHECKSUM_POPUP_MESSAGE
+    text: Проверка загруженных ресурсов игры на предмет ошибок.<br>(Ресурсы будут проверяться только один раз.)<br>※ Это может занять несколько минут в зависимости от устройства.
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM_NEXT
+    text: Проверить в Следующий Раз
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM
+    text: Проверить Сейчас
+  - id: RESOURCE_CHECKSUM_READY
+    text: Подготовка к регистрации ресурса.
+  - id: RESOURCE_CHECKSUM_PROGRESS
+    text: Ресурсы проверяются. ({0}/{1})
+  - id: RESOURCE_CHECKSUM_COMPLETE
+    text: Полная проверка ресурса.
+  - id: RESOURCE_CHECKSUM_COMPLETE_TITLE
+    text: Проверка Целостности Завершена
+  - id: RESOURCE_CHECKSUM_COMPLETE_MESSAGE
+    text: Нет ошибок в игре ресурсов.<br>Нажмите [Хорошо], чтобы запустить игру.
+  - id: RESOURCE_CHECKSUM_ERROR_TITLE
+    text: Ошибка Ресурсов
+  - id: RESOURCE_CHECKSUM_ERROR_MESSAGE
+    text: Ошибка ресурсов в игре были найдены во время проверки.<br>Нажмите [Хорошо] для повторной загрузки ресурсов.
+  - id: INSTALL_TSTORE_ALERT
+    text: Пожалуйста, установите TStore и снова попробуйте.
+  - id: GAMECENTER_CONNECT
+    text: Подключение к Game Center ...
+  - id: PLAYGAME_CONNECT
+    text: Подключение к Play Game Services ...
+  - id: RESOURCE_DOWNLOAD_UNZIP_FAILED_RETRY
+    text: Не удалось извлечь.<br>Снова попробовать?
+  - id: UNABLE_TO_PLAY_ALERT
+    text: Неподдерживаемое устройство.<br>Вы не может играть в White Day на этом устройстве.<br>Пожалуйста, проверьте описание магазина для получения дополнительной информации о поддерживаемых устройствах.
+  - id: UI_BUNDLE_DOWN_LOAD_TIP
+    text: White day требуется подключение к сети при запуске приложения.<br><br>При подключение необходимо проверить информацию пользователя<br>и не требуется во время игры.
+  - id: UI_ACCEPT
+    text: Принять
+  - id: UI_AGREEMENT
+    text: Условия использования
+  - id: UI_TERMS
+    text: Политика Конфиденциальности
+  - id: UI_TITLE_TERMSOFUSE
+    text: Сроки окупаемости инвестиций игр использовать
+  - id: SPEC_CHECK_RESULT_FAIL
+    text: Данное устройство не удовлетворяет минимальным требованиям для White day.<br>Пожалуйста, посетите страницу магазина для получения дополнительной информации.<br>Приложение сейчас закроется.
+  - id: SPEC_CHECK_RESULT_POSSIBLE
+    text: Игра будет работать в режиме производительности данного устройства.
+  - id: SPEC_CHECK_RESULT_BUTTON
+    text: Хорошо
+  - id: UI_POPUP_MSG_GAMECENTER_CONNECT
+    text: Вы не подключены к Game Center.<br>Подключиться к Game Center?
+  - id: CANCEL
+    text: Отменить

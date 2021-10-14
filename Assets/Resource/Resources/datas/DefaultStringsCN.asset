@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0241f5c82db49547832345de63bf211, type: 3}
+  m_Name: DefaultStringsCN
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/DefaultStrings.xlsx
+  worksheetName: DefaultStringsCN
+  dataArray:
+  - id: RESOURCE_CHECK
+    text: 检查资源。
+  - id: RESOURCE_DOWNLOAD_PROGRESS
+    text: 正下载资源。 （{0}/{1}，{2}%）
+  - id: RESOURCE_DOWNLOAD_COMPLETE
+    text: 资源下载完毕。
+  - id: RESOURCE_CHECK_COMPLETE
+    text: 资源确认完毕。
+  - id: INTRO_LOADING
+    text: 简介加载中。
+  - id: RESOURCE_DOWNLOAD_FAILE_MEMORY
+    text: 下载失败<br>内存空间不足。
+  - id: CLOSE
+    text: 结束
+  - id: RESOURCE_DOWNLOAD_FAILE_RETRY
+    text: 下载失败<br>是否重试？
+  - id: RETRY
+    text: 重试
+  - id: RESOURCE_DOWNLOAD_DECOMPRESS
+    text: 资源解压中。
+  - id: RESOURCE_DOWNLOAD_ALERT
+    text: 正下载运行白色情人节所需的游戏数据。<br>为顺利下载，建议在稳定的网络条件下执行此操作。
+  - id: RESOURCE_DOWNLOAD_ALERT_WIFI
+    text: （在3G/LTE环境中下载时，有可能产生流量费。<br>建议连接Wifi的环境下执行此操作。）
+  - id: NETWORK_STATE_ALERT
+    text: 请确认网络状态后，重试。
+  - id: CONFIRM
+    text: 确认
+  - id: SERVER_CONNECT
+    text: 用户认证。
+  - id: CLIENT_VERSION_QUESTION
+    text: 白色情人节更新了。<br><br>更幽深、恐惧的延杜高校等待您的加入。<br>（点击确认键，就能移动到下载页面。）
+  - id: NETWORK_SEND_RETRY
+    text: 断开链接。<br>确定重试吗？
+  - id: NOT_FIND_DEVICE_INFO
+    text: 无法获取设备信息。
+  - id: LICENSE_CHECK_APPLICATION_ERROR
+    text: 发生错误。 （{0}）
+  - id: LICENSE_CHECK_RETRY
+    text: 认证信息确认失败。 （{0}）
+  - id: LICENSE_CHECK_DONT_ALLOW
+    text: 无法查看购买详情。<br>请确认网络状态后，重试。<br>({0})
+  - id: RESOURCE_CHECKSUM_POPUP_TITLE
+    text: 检查资源有效性
+  - id: RESOURCE_CHECKSUM_POPUP_MESSAGE
+    text: 正在确认资源是否有异常。<br>（您至少要检查一次，以后不需要再检查。）<br>※ 检查需要几分钟的时间。
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM_NEXT
+    text: 下次检查。
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM
+    text: 马上检查。
+  - id: RESOURCE_CHECKSUM_READY
+    text: 正在准备检查资源。
+  - id: RESOURCE_CHECKSUM_PROGRESS
+    text: 正在检查资源。({0}/{1})
+  - id: RESOURCE_CHECKSUM_COMPLETE
+    text: 资源已检查完毕。
+  - id: RESOURCE_CHECKSUM_COMPLETE_TITLE
+    text: 检查完毕
+  - id: RESOURCE_CHECKSUM_COMPLETE_MESSAGE
+    text: 资源没有异常。<br>点击[确认]按钮将运行游戏。
+  - id: RESOURCE_CHECKSUM_ERROR_TITLE
+    text: 资源异常
+  - id: RESOURCE_CHECKSUM_ERROR_MESSAGE
+    text: 检查有效性时发现异常。<br>点击[确认]按钮将重新下载最新资源。
+  - id: INSTALL_TSTORE_ALERT
+    text: 请安装TStore后，重试。
+  - id: GAMECENTER_CONNECT
+    text: 正在连接游戏中心。
+  - id: PLAYGAME_CONNECT
+    text: 正在连接Play-Game游戏服务。
+  - id: RESOURCE_DOWNLOAD_UNZIP_FAILED_RETRY
+    text: 解压缩失败<br>要再试一次吗?
+  - id: UNABLE_TO_PLAY_ALERT
+    text: 设备不兼容。<br>您无法于本设备上游玩White Day。<br>请登录商店查看设备支持信息。
+  - id: UI_BUNDLE_DOWN_LOAD_TIP
+    text: '[White Day]是需要在运行时数据的网络环境。<br><br>搜索结果只用数据量小，以验证您的信息，<br>并在游戏过程中不使用的数据结果。'
+  - id: UI_ACCEPT
+    text: 同意
+  - id: UI_AGREEMENT
+    text: 服务使用条款
+  - id: UI_TERMS
+    text: 个人资料使用政策
+  - id: UI_TITLE_TERMSOFUSE
+    text: Roi Games使用条款
+  - id: SPEC_CHECK_RESULT_FAIL
+    text: 没有足够的设备[White Day]的性能发挥。<br>请阅读存储中的信息以获取更多信息。<br>退出应用程序。
+  - id: SPEC_CHECK_RESULT_POSSIBLE
+    text: 执行仪器的最低规格的游戏模式的性能较低。
+  - id: SPEC_CHECK_RESULT_BUTTON
+    text: 确认
+  - id: UI_POPUP_MSG_GAMECENTER_CONNECT
+    text: 它没有连接到游戏中心。<br>你想连接到游戏中心？
+  - id: CANCEL
+    text: 取消

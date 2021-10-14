@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: Prop_TreeMan_KidnapHand_310
+  m_Shader: {fileID: 4800000, guid: 6ce528411a10c5f47abbc7188fed041b, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 53a7754825d452840b8702bea29e0148, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: cecf285ce1f42bc4ebe042943c9788af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 54e044dd73bd9b6438575aad6ae47877, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMap:
+        m_Texture: {fileID: 2800000, guid: feadfd15ef39e7748942ddfec088577a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpPower: 0
+    - _Cutoff: 0.8035715
+    - _Intensity: 0.51
+    - _RimPower: 7.85
+    - _Sensitivity: 1
+    - _Shininess: 1
+    m_Colors:
+    - _Color: {r: 0.372549, g: 0.372549, b: 0.372549, a: 1}
+    - _LColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.3693772, g: 0.3928499, b: 0.4485294, a: 0.1372549}
+    - _SColor: {r: 0.5220588, g: 0.5220588, b: 0.5220588, a: 1}
+    - _SpecColor: {r: 0.9485294, g: 0.9485294, b: 0.9485294, a: 1}

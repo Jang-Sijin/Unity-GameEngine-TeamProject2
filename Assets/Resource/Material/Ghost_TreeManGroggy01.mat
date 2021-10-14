@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: Ghost_TreeManGroggy01
+  m_Shader: {fileID: 4800000, guid: 6ce528411a10c5f47abbc7188fed041b, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 2b0e47c7a7fabef489f1530f2fccd445, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: cecf285ce1f42bc4ebe042943c9788af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 222572fb80623754dba96052676abeb4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMap:
+        m_Texture: {fileID: 2800000, guid: ee803868c1afbb84bbe96eb1dc883fe2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.8035715
+    - _RimPower: 7.85
+    - _Shininess: 0.03
+    m_Colors:
+    - _Color: {r: 0.4411765, g: 0.4411765, b: 0.4411765, a: 1}
+    - _LColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.2178309, g: 0.2644396, b: 0.375, a: 0.1372549}
+    - _SColor: {r: 0.3693772, g: 0.3928499, b: 0.4485294, a: 0.1372549}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}

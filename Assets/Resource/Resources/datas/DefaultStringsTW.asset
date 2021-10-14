@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0241f5c82db49547832345de63bf211, type: 3}
+  m_Name: DefaultStringsTW
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/DefaultStrings.xlsx
+  worksheetName: DefaultStringsTW
+  dataArray:
+  - id: RESOURCE_CHECK
+    text: 正在確認資源。
+  - id: RESOURCE_DOWNLOAD_PROGRESS
+    text: 資源下載中。 （{0}/{1} , {2}%）
+  - id: RESOURCE_DOWNLOAD_COMPLETE
+    text: 資源下載完成。
+  - id: RESOURCE_CHECK_COMPLETE
+    text: 資源確認完畢！
+  - id: INTRO_LOADING
+    text: 正在下載Intro。
+  - id: RESOURCE_DOWNLOAD_FAILE_MEMORY
+    text: 下載失敗<br>剩餘儲存空間不足。
+  - id: CLOSE
+    text: 結束
+  - id: RESOURCE_DOWNLOAD_FAILE_RETRY
+    text: 下載失敗<br>要重試一次嗎？
+  - id: RETRY
+    text: 重試
+  - id: RESOURCE_DOWNLOAD_DECOMPRESS
+    text: 正在解壓縮資源。
+  - id: RESOURCE_DOWNLOAD_ALERT
+    text: 下載遊戲數據以進行白色情人節。<br>為了順利下載，請在網路順暢的環境中進行。
+  - id: RESOURCE_DOWNLOAD_ALERT_WIFI
+    text: （在3G/LTE 環境下載時，可能會產生額外費用。<br>建議在Wifi環境下進行。）
+  - id: NETWORK_STATE_ALERT
+    text: 請確認網路狀態後再試一次。
+  - id: CONFIRM
+    text: 確認
+  - id: SERVER_CONNECT
+    text: 正在確認使用者。
+  - id: CLIENT_VERSION_QUESTION
+    text: 白色情人節又有新面貌了。<br><br>延斗高中更深沉的黑暗等著你。<br>（按下確認鍵前往下載頁面。）
+  - id: NETWORK_SEND_RETRY
+    text: 通信連結已中斷。<br>要再試一次嗎？
+  - id: NOT_FIND_DEVICE_INFO
+    text: 無法獲取裝置資訊。
+  - id: LICENSE_CHECK_APPLICATION_ERROR
+    text: 發生錯誤。 （{0}）
+  - id: LICENSE_CHECK_RETRY
+    text: 認證資訊確認失敗。 （{0}）
+  - id: LICENSE_CHECK_DONT_ALLOW
+    text: 無法查看購買詳細。 <br>請確認網路狀態後再試一次。<br>({0})
+  - id: RESOURCE_CHECKSUM_POPUP_TITLE
+    text: 檢查資源有效性
+  - id: RESOURCE_CHECKSUM_POPUP_MESSAGE
+    text: 確認新接收到的資源是否有異常。<br>(至少檢查1次，下次開始即不會檢查。)<br>※ 依機型不同，檢查可能需要幾分鐘不等。
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM_NEXT
+    text: 下次檢查
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM
+    text: 現在檢查
+  - id: RESOURCE_CHECKSUM_READY
+    text: 正在準備檢查資源。
+  - id: RESOURCE_CHECKSUM_PROGRESS
+    text: 正在檢查資源。({0}/{1})
+  - id: RESOURCE_CHECKSUM_COMPLETE
+    text: 已完成資源檢查。
+  - id: RESOURCE_CHECKSUM_COMPLETE_TITLE
+    text: '檢查結束 '
+  - id: RESOURCE_CHECKSUM_COMPLETE_MESSAGE
+    text: 資源無任何異常。<br>請按下[確認]開始遊戲。
+  - id: RESOURCE_CHECKSUM_ERROR_TITLE
+    text: 資源異常
+  - id: RESOURCE_CHECKSUM_ERROR_MESSAGE
+    text: 有效性檢查中發現異常。<br>請按下[確認]重新下載該資源。
+  - id: INSTALL_TSTORE_ALERT
+    text: 請安裝TStore後重試一次。
+  - id: GAMECENTER_CONNECT
+    text: 正在連接到Game Center。
+  - id: PLAYGAME_CONNECT
+    text: 正在連接到Play Games。
+  - id: RESOURCE_DOWNLOAD_UNZIP_FAILED_RETRY
+    text: 解壓縮失敗<br>要再試一次嗎?
+  - id: UNABLE_TO_PLAY_ALERT
+    text: 不支援的機型。<br>無法於本裝置上遊玩White Day。<br>詳細支援資訊請查閱商店的詳細內容。
+  - id: UI_BUNDLE_DOWN_LOAD_TIP
+    text: '[White Day]是需要在運行時數據的網絡環境。<br><br>搜索結果只用數據量小，以驗證您的信息，<br>並在遊戲過程中不使用的數據結果。'
+  - id: UI_ACCEPT
+    text: 同意
+  - id: UI_AGREEMENT
+    text: 服務使用條款
+  - id: UI_TERMS
+    text: 個人資料使用政策
+  - id: UI_TITLE_TERMSOFUSE
+    text: ROI Games使用條款
+  - id: SPEC_CHECK_RESULT_FAIL
+    text: 沒有足夠的設備[White Day]的性能發揮。<br>請閱讀存儲中的信息以獲取更多信息。<br>退出應用程序。
+  - id: SPEC_CHECK_RESULT_POSSIBLE
+    text: 執行儀器的最低規格的遊戲模式的性能較低。
+  - id: SPEC_CHECK_RESULT_BUTTON
+    text: 確認
+  - id: UI_POPUP_MSG_GAMECENTER_CONNECT
+    text: 它沒有連接到遊戲中心。<br>你想連接到遊戲中心？
+  - id: CANCEL
+    text: 取消

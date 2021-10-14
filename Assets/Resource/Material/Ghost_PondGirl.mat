@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: Ghost_PondGirl
+  m_Shader: {fileID: 4800000, guid: 6ce528411a10c5f47abbc7188fed041b, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 07126ef733c1cbf41b332a66dcda7b8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: cecf285ce1f42bc4ebe042943c9788af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: bc8354bb48dfa99489bd3c59ed1fdf19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMap:
+        m_Texture: {fileID: 2800000, guid: 11a4c5bf80e82c24f8985ba7cab0aa1f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.424
+    - _RimPower: 3
+    - _Sensitivity: 1
+    - _Shininess: 0.538
+    m_Colors:
+    - _Color: {r: 0.5661765, g: 0.5661765, b: 0.5661765, a: 1}
+    - _LColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.6672794, g: 0.6952333, b: 0.75, a: 0.1372549}
+    - _SColor: {r: 0.1911765, g: 0.1911765, b: 0.1911765, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}

@@ -28,8 +28,7 @@ public class PlayerController : MonoBehaviour
 
 
             fpsCamera.transform.eulerAngles =
-                fpsCamera.transform.eulerAngles +
-                new Vector3(mouseY * (IsInvertYaxis ? 1 : -1), 0, 0); // 조건식을 3항식으로 대체했음.
+                fpsCamera.transform.eulerAngles + new Vector3(mouseY * (IsInvertYaxis ? 1 : -1), 0, 0); // 조건식을 3항식으로 대체했음.
 
             var keyboardX = Input.GetAxis("Horizontal"); // ws, 좌 우 버튼을 누르면 값을 받음
             var keyboardY = Input.GetAxis("Vertical"); // sw, 위 아래 버튼을 누르면 값을 받음
@@ -46,8 +45,6 @@ public class PlayerController : MonoBehaviour
                 // print(movementSpeed);
             }
             
-            fpsRigidBody.velocity = ((transform.forward * (keyboardY * movementSpeed)) +
-                                    (transform.right * (keyboardX * movementSpeed)) + 
-                                    new Vector3(0, fpsRigidBody.velocity.y, 0));
+            fpsRigidBody.velocity = ((transform.forward * (keyboardY * movementSpeed)) + (transform.right * (keyboardX * movementSpeed)) + new Vector3(0, fpsRigidBody.velocity.y, 0));
     }
 }

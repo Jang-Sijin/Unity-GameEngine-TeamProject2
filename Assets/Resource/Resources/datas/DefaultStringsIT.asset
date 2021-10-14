@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0241f5c82db49547832345de63bf211, type: 3}
+  m_Name: DefaultStringsIT
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/DefaultStrings.xlsx
+  worksheetName: DefaultStringsIT
+  dataArray:
+  - id: RESOURCE_CHECK
+    text: Verifica delle risorse.
+  - id: RESOURCE_DOWNLOAD_PROGRESS
+    text: Download delle risorse ({0}/{1}, {2}%).
+  - id: RESOURCE_DOWNLOAD_COMPLETE
+    text: Download delle risorse terminato.
+  - id: RESOURCE_CHECK_COMPLETE
+    text: Verifica delle risorse terminata.
+  - id: INTRO_LOADING
+    text: Caricamento intro...
+  - id: RESOURCE_DOWNLOAD_FAILE_MEMORY
+    text: Download non riuscito.<br>Memoria insufficiente.
+  - id: CLOSE
+    text: Abbandona
+  - id: RESOURCE_DOWNLOAD_FAILE_RETRY
+    text: Download non riuscito.<br>Vuoi riprovare?
+  - id: RETRY
+    text: Riprova
+  - id: RESOURCE_DOWNLOAD_DECOMPRESS
+    text: Estrazione risorse.
+  - id: RESOURCE_DOWNLOAD_ALERT
+    text: 'Download dei dati del gioco per avviare White Day: A Labyrinth Named School.<br>Assicurati di avere una connessione di rete stabile mentre scarichi il gioco.'
+  - id: RESOURCE_DOWNLOAD_ALERT_WIFI
+    text: (Ti potrebbero essere addebitati dei costi aggiuntivi se usi una connessione di rete 3G/LTE.<br>Ti consigliamo di usare una connessione Wi-Fi per il download.)
+  - id: NETWORK_STATE_ALERT
+    text: Controlla lo stato della tua rete e prova di nuovo.
+  - id: CONFIRM
+    text: OK
+  - id: SERVER_CONNECT
+    text: Verifica dell'utente...
+  - id: CLIENT_VERSION_QUESTION
+    text: White Day è tornato con nuovi contenuti e funzionalità.<br><br>Esplora le profondità del liceo Yeondu, ora più oscuro che mai.<br>(Premendo "OK" verrai reindirizzato alla pagina di download.)
+  - id: NETWORK_SEND_RETRY
+    text: Connessione persa.<br>Riprovare?
+  - id: NOT_FIND_DEVICE_INFO
+    text: Impossibile accedere alle informazioni del dispositivo.
+  - id: LICENSE_CHECK_APPLICATION_ERROR
+    text: Si è verificato un errore ({0}).
+  - id: LICENSE_CHECK_RETRY
+    text: Conferma delle informazioni di verifica non riuscita ({0}).
+  - id: LICENSE_CHECK_DONT_ALLOW
+    text: Verifica informazioni acquisto non riuscita.<br>Controlla lo stato della tua rete e prova di nuovo.<br>({0})
+  - id: RESOURCE_CHECKSUM_POPUP_TITLE
+    text: Controllo integrità delle risorse
+  - id: RESOURCE_CHECKSUM_POPUP_MESSAGE
+    text: Controllo delle nuove risorse scaricate per verificare la presenza di errori.<br>(Il controllo avverrà una volta sola.)<br>※ Il processo potrà impiegare qualche minuto, a seconda del dispositivo utilizzato.
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM_NEXT
+    text: Controlla la prossima volta
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM
+    text: Controlla ora
+  - id: RESOURCE_CHECKSUM_READY
+    text: Preparazione al controllo delle risorse in corso.
+  - id: RESOURCE_CHECKSUM_PROGRESS
+    text: Controllo delle risorse in corso. ({0}/{1})
+  - id: RESOURCE_CHECKSUM_COMPLETE
+    text: Controllo delle risorse terminato.
+  - id: RESOURCE_CHECKSUM_COMPLETE_TITLE
+    text: Integrità delle risorse completa
+  - id: RESOURCE_CHECKSUM_COMPLETE_MESSAGE
+    text: Nessun errore trovato tra le risorse del gioco.<br>Premi [OK] per avviare il gioco.
+  - id: RESOURCE_CHECKSUM_ERROR_TITLE
+    text: Errore risorse
+  - id: RESOURCE_CHECKSUM_ERROR_MESSAGE
+    text: È stato rinvenuto un errore tra le risorse del gioco.<br>Premi [OK] per scaricare nuovamente le risorse.
+  - id: INSTALL_TSTORE_ALERT
+    text: Installa il Tstore e riprova.
+  - id: GAMECENTER_CONNECT
+    text: Connessione al Game Center...
+  - id: PLAYGAME_CONNECT
+    text: Connessione a Play Game Services...
+  - id: RESOURCE_DOWNLOAD_UNZIP_FAILED_RETRY
+    text: Impossibile esportare.<br>Riprovare?
+  - id: UNABLE_TO_PLAY_ALERT
+    text: Dispositivo non supportato.<br>White Day non può essere giocato su questo dispositivo.<br>Controlla la descrizione nel negozio per ulteriori informazioni sui dispositivi supportati.
+  - id: UI_BUNDLE_DOWN_LOAD_TIP
+    text: '[White Day] ha bisogno di connessione alla rete di dati durante il lancio.<br><br>Si usa solo un po ''di dati per la verifica le informazioni<br>dell''utente e non usa i dati durante il gioco.'
+  - id: UI_ACCEPT
+    text: Accetta
+  - id: UI_AGREEMENT
+    text: Termini di utilizzo
+  - id: UI_TERMS
+    text: Norme sulla privacy
+  - id: UI_TITLE_TERMSOFUSE
+    text: Termini di utilizzo Roi Games
+  - id: SPEC_CHECK_RESULT_FAIL
+    text: Il tuo prestazioni del dispositivo non è sufficiente per giocare il [White Day]. <br> Si prega di verificare le informazioni di gioco in serbo per i dettagli. <br> Chiudere l'applicazione.
+  - id: SPEC_CHECK_RESULT_POSSIBLE
+    text: Il gioco è stato lanciato come il minimo modalità specifica funzionale perché la mancanza di prestazioni del dispositivo.
+  - id: SPEC_CHECK_RESULT_BUTTON
+    text: OK
+  - id: UI_POPUP_MSG_GAMECENTER_CONNECT
+    text: Non è collegato al Game Center.<br>Vuoi per la connessione a Game Center?
+  - id: CANCEL
+    text: Annulla

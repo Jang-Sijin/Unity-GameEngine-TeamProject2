@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0241f5c82db49547832345de63bf211, type: 3}
+  m_Name: DefaultStringsJP
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/DefaultStrings.xlsx
+  worksheetName: DefaultStringsJP
+  dataArray:
+  - id: RESOURCE_CHECK
+    text: リソースを確認しています。
+  - id: RESOURCE_DOWNLOAD_PROGRESS
+    text: リソースをダウンロードしています。({0}/{1} 、 {2}%)
+  - id: RESOURCE_DOWNLOAD_COMPLETE
+    text: リソースのダウンロードが完了しました。
+  - id: RESOURCE_CHECK_COMPLETE
+    text: リソースの確認が完了しました。
+  - id: INTRO_LOADING
+    text: イントロをロードしています。
+  - id: RESOURCE_DOWNLOAD_FAILE_MEMORY
+    text: ダウンロード失敗<br>メモリの空き容量が足りません。
+  - id: CLOSE
+    text: 終了
+  - id: RESOURCE_DOWNLOAD_FAILE_RETRY
+    text: ダウンロード失敗<br>再試行しますか？
+  - id: RETRY
+    text: 再試行
+  - id: RESOURCE_DOWNLOAD_DECOMPRESS
+    text: リソースの圧縮を解除しています。
+  - id: RESOURCE_DOWNLOAD_ALERT
+    text: ホワイトデーを実行するためのゲームデータをダウンロードします。<br>ネットワーク環境をご確認のうえ、ダウンロードを行ってください。
+  - id: RESOURCE_DOWNLOAD_ALERT_WIFI
+    text: (3G/LTE環境でダウンロード時、データ料金が発生する場合があります。<br>Wi-Fi環境でのダウンロードをお薦めします。)
+  - id: NETWORK_STATE_ALERT
+    text: ネットワーク状態を確認してから再度お試しください。
+  - id: CONFIRM
+    text: 確認
+  - id: SERVER_CONNECT
+    text: ユーザー認証を行っています。
+  - id: CLIENT_VERSION_QUESTION
+    text: ホワイトデーがより新しくなりました。<br><br>さらに深みを増したヨンド高校の闇があなたを待っています。<br>(確認ボタンを押すとダウンロードサイトへ移動します)
+  - id: NETWORK_SEND_RETRY
+    text: 通信が切断されました。<br>再試行しますか？
+  - id: NOT_FIND_DEVICE_INFO
+    text: デバイス情報を取得できません。
+  - id: LICENSE_CHECK_APPLICATION_ERROR
+    text: エラーが発生しました。({0})
+  - id: LICENSE_CHECK_RETRY
+    text: 認証情報の確認に失敗しました。({0})
+  - id: LICENSE_CHECK_DONT_ALLOW
+    text: 購入履歴を確認できません。<br>ネットワーク状態を確認してから再度お試しください。<br>({0})
+  - id: RESOURCE_CHECKSUM_POPUP_TITLE
+    text: リソース有効性検査
+  - id: RESOURCE_CHECKSUM_POPUP_MESSAGE
+    text: ダウンロードしたリソースの異常有無を検査します。<br>(検査は最初の1回のみ行います)<br>※ 検査は機種により数分ほどかかる場合があります。
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM_NEXT
+    text: あとで検査
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM
+    text: すぐに検査
+  - id: RESOURCE_CHECKSUM_READY
+    text: リソース検査を準備しています。
+  - id: RESOURCE_CHECKSUM_PROGRESS
+    text: リソースを検査しています。({0}/{1})
+  - id: RESOURCE_CHECKSUM_COMPLETE
+    text: リソース検査を完了しました。
+  - id: RESOURCE_CHECKSUM_COMPLETE_TITLE
+    text: 検査完了
+  - id: RESOURCE_CHECKSUM_COMPLETE_MESSAGE
+    text: リソースには何の異常もありません。<br>[確認]を押すとゲームを開始します。
+  - id: RESOURCE_CHECKSUM_ERROR_TITLE
+    text: リソース異常
+  - id: RESOURCE_CHECKSUM_ERROR_MESSAGE
+    text: 有効性検査中に異常を発見しました。<br>[確認]を押すと該当リソースを再ダウンロードします。
+  - id: INSTALL_TSTORE_ALERT
+    text: TStoreをインストールした後、再度お試しください。
+  - id: GAMECENTER_CONNECT
+    text: ゲームセンターサービスにアクセスしています。
+  - id: PLAYGAME_CONNECT
+    text: プレイゲームサービスにアクセスしています。
+  - id: RESOURCE_DOWNLOAD_UNZIP_FAILED_RETRY
+    text: 圧縮解除失敗<br>再試行しますか？
+  - id: UNABLE_TO_PLAY_ALERT
+    text: お使いの端末は「White Day」に対応していません。<br>このデバイスでは、「White Day」をプレイできません。<br>動作確認済み機種の最新情報は、ストアの製品情報ページにてご確認ください。
+  - id: UI_BUNDLE_DOWN_LOAD_TIP
+    text: 【White Day】実行時のデータネットワーク環境が必要です。<br><br>ユーザー情報を確認するために、少量のデータだけを使用し、<br>ゲームの中には、データを使用していません。
+  - id: UI_ACCEPT
+    text: 同意する
+  - id: UI_AGREEMENT
+    text: サービス利用規約
+  - id: UI_TERMS
+    text: 個人情報の取り扱いについて
+  - id: UI_TITLE_TERMSOFUSE
+    text: ロイゲームズ利用規約
+  - id: SPEC_CHECK_RESULT_FAIL
+    text: 機器の性能が[White Day]をプレイするのに不足します。<br>詳細については、ストアの情報を確認してください。<br>アプリを終了します。
+  - id: SPEC_CHECK_RESULT_POSSIBLE
+    text: 機器の性能が低下し、最低仕様モードでゲームが実行されます。
+  - id: SPEC_CHECK_RESULT_BUTTON
+    text: 確認
+  - id: UI_POPUP_MSG_GAMECENTER_CONNECT
+    text: ゲームセンターに接続されていません。<br>ゲームセンターに接続しますか？
+  - id: CANCEL
+    text: 削除しない

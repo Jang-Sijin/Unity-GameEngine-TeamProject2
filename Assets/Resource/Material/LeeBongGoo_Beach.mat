@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_Name: LeeBongGoo_Beach
+  m_Shader: {fileID: 4800000, guid: f4017f4552a75624ea8891399bf95d77, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: 071a049e1207ad74d9cdfc799f37463a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5c8f3e6ba0725d94387af5c83500db08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 9be52068603103b49ad2eb1e294ff15d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMap:
+        m_Texture: {fileID: 2800000, guid: 22066a08a3f54d44492a0f074aa3db73, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.8035715
+    - _RimPower: 6
+    - _Sensitivity: 1
+    - _Shininess: 1
+    m_Colors:
+    - _Color: {r: 0.5490196, g: 0.5490196, b: 0.5490196, a: 1}
+    - _LColor: {r: 0.8897059, g: 0.8308283, b: 0.8308283, a: 1}
+    - _RimColor: {r: 0.7352941, g: 0.7352941, b: 0.7352941, a: 0.08235294}
+    - _SColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.8161765, g: 0.7981726, b: 0.7981726, a: 1}

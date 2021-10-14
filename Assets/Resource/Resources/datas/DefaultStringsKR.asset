@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0241f5c82db49547832345de63bf211, type: 3}
+  m_Name: DefaultStringsKR
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/DefaultStrings.xlsx
+  worksheetName: DefaultStringsKR
+  dataArray:
+  - id: RESOURCE_CHECK
+    text: 리소스 확인 중입니다.
+  - id: RESOURCE_DOWNLOAD_PROGRESS
+    text: 리소스 다운로드 중 입니다. ({0}/{1} , {2}%)
+  - id: RESOURCE_DOWNLOAD_COMPLETE
+    text: 리소스 다운로드가 완료되었습니다.
+  - id: RESOURCE_CHECK_COMPLETE
+    text: 리소스 확인이 완료되었습니다.
+  - id: INTRO_LOADING
+    text: 인트로 로딩중입니다.
+  - id: RESOURCE_DOWNLOAD_FAILE_MEMORY
+    text: 다운로드 실패<br>남은 메모리 공간이 부족합니다.
+  - id: CLOSE
+    text: 종료
+  - id: RESOURCE_DOWNLOAD_FAILE_RETRY
+    text: 다운로드 실패<br>다시 시도 하시겠습니까?
+  - id: RETRY
+    text: 재시도
+  - id: RESOURCE_DOWNLOAD_DECOMPRESS
+    text: 리소스 압축 해제 중입니다.
+  - id: RESOURCE_DOWNLOAD_ALERT
+    text: 화이트데이의 실행을 위한 게임 데이터를 다운로드 합니다<br>원활한 다운로드를 위해 안정적인 네트워크 환경에서 시도해 주십시오.
+  - id: RESOURCE_DOWNLOAD_ALERT_WIFI
+    text: (3G/LTE 환경에서 다운로드 시 데이터 요금이 청구될 수 있습니다.<br>Wifi 환경에서 진행하기를 권장합니다.)
+  - id: NETWORK_STATE_ALERT
+    text: 네트워크 상태를 확인 후 다시 시도해 주십시오.
+  - id: CONFIRM
+    text: 확인
+  - id: SERVER_CONNECT
+    text: 사용자 인증 중 입니다.
+  - id: CLIENT_VERSION_QUESTION
+    text: 화이트데이가 좀 더 새로워졌습니다.<br><br>더 깊어진 연두 고등학교의 어둠이 당신을 기다립니다.<br>(확인 버튼을 누르면 다운로드 사이트로 이동합니다.)
+  - id: NETWORK_SEND_RETRY
+    text: 통신연결이 끊어졌습니다.<br>다시 시도하시겠습니까?
+  - id: NOT_FIND_DEVICE_INFO
+    text: 디바이스 정보를 얻을 수 없습니다.
+  - id: LICENSE_CHECK_APPLICATION_ERROR
+    text: 오류가 발생하였습니다. ({0})
+  - id: LICENSE_CHECK_RETRY
+    text: 인증정보 확인에 실패하였습니다. ({0})
+  - id: LICENSE_CHECK_DONT_ALLOW
+    text: 구매이력을 확인할수 없습니다.<br>네트워크 상태를 확인 후 다시 시도해 주십시오.<br>({0})
+  - id: RESOURCE_CHECKSUM_POPUP_TITLE
+    text: 리소스 유효성 검사
+  - id: RESOURCE_CHECKSUM_POPUP_MESSAGE
+    text: 새로 받은 리소스의 이상 유무를 확인합니다.<br>(최초 1회만 검사 후 다음부터는 검사하지 않습니다.)<br>※ 검사는 기기에 따라 몇 분 가량 소요될 수 있습니다.
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM_NEXT
+    text: 다음에 검사
+  - id: RESOURCE_CHECKSUM_POPUP_CONFIRM
+    text: 지금 검사
+  - id: RESOURCE_CHECKSUM_READY
+    text: 리소스 검사를 준비 중입니다.
+  - id: RESOURCE_CHECKSUM_PROGRESS
+    text: 리소스를 검사 중입니다.({0}/{1})
+  - id: RESOURCE_CHECKSUM_COMPLETE
+    text: 리소스 검사를 완료 하였습니다.
+  - id: RESOURCE_CHECKSUM_COMPLETE_TITLE
+    text: 검사 완료
+  - id: RESOURCE_CHECKSUM_COMPLETE_MESSAGE
+    text: 리소스에 아무런 이상이 없습니다.<br>[확인]을 누르시면 게임을 진행합니다.
+  - id: RESOURCE_CHECKSUM_ERROR_TITLE
+    text: 리소스 이상
+  - id: RESOURCE_CHECKSUM_ERROR_MESSAGE
+    text: 유효성 검사 중 이상을 발견했습니다.<br>[확인]을 누르시면 해당 리소스를 다시 다운로드 받습니다.
+  - id: INSTALL_TSTORE_ALERT
+    text: TStore 를 설치하신후 다시 시도해주세요.
+  - id: GAMECENTER_CONNECT
+    text: 게임센터 서비스에 연결하고 있습니다.
+  - id: PLAYGAME_CONNECT
+    text: 플레이게임 서비스에 연결하고 있습니다.
+  - id: RESOURCE_DOWNLOAD_UNZIP_FAILED_RETRY
+    text: 압축해제 실패<br>다시 시도 하시겠습니까?
+  - id: UNABLE_TO_PLAY_ALERT
+    text: 지원되지 않는 기기입니다.<br>이 기기에서는 화이트데이를 플레이 하실 수 없습니다.<br>자세한 지원 정보는 스토어의 세부 내용을 확인해주시기 바랍니다.
+  - id: UI_BUNDLE_DOWN_LOAD_TIP
+    text: '[화이트데이] 실행 시 데이터 네트워크 환경이 필요합니다.<br><br>사용자 정보를 확인하기 위해 소량의 데이터만을 사용하며<br>게임 플레이 중에는 데이터를 사용하지 않습니다.'
+  - id: UI_ACCEPT
+    text: 동의
+  - id: UI_AGREEMENT
+    text: 서비스 이용약관
+  - id: UI_TERMS
+    text: 개인정보취급방침
+  - id: UI_TITLE_TERMSOFUSE
+    text: 로이게임즈 이용약관
+  - id: SPEC_CHECK_RESULT_FAIL
+    text: 기기의 성능이 [화이트데이]를 플레이 하기에 부족합니다.<br>자세한 내용은 스토어의 정보를 확인해 주시기 바랍니다.<br>앱을 종료합니다.
+  - id: SPEC_CHECK_RESULT_POSSIBLE
+    text: 기기의 성능이 낮아 최저 사양 모드로 게임이 실행됩니다.
+  - id: SPEC_CHECK_RESULT_BUTTON
+    text: 확인
+  - id: UI_POPUP_MSG_GAMECENTER_CONNECT
+    text: 게임센터에 연결되어 있지 않습니다.<br>게임센터에 연결하시겠습니까?
+  - id: CANCEL
+    text: 취소

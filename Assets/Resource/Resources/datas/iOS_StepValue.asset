@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50b33988759c53c4a85fdc5374ff126d, type: 3}
+  m_Name: iOS_StepValue
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/iOS_StepValue.xlsx
+  worksheetName: iOS_StepValue
+  dataArray:
+  - id: Achivement_StartStage_01
+    stepvalue: 100
+  - id: Achivement_StartStage_02
+    stepvalue: 100
+  - id: Achivement_StartStage_03
+    stepvalue: 100
+  - id: Achivement_StartStage_04
+    stepvalue: 100
+  - id: Achivement_StartStage_05
+    stepvalue: 100
+  - id: Achivement_StartStage_06
+    stepvalue: 100
+  - id: Achivement_Die_01
+    stepvalue: 100
+  - id: Achivement_Die_10
+    stepvalue: 10
+  - id: Achivement_Die_50
+    stepvalue: 2
+  - id: Achivement_Die_100
+    stepvalue: 1
+  - id: Achivement_CompleteLevel_VeryEasy_01
+    stepvalue: 100
+  - id: Achivement_CompleteLevel_VeryEasy_07
+    stepvalue: 14.29
+  - id: Achivement_CompleteLevel_VeryEasy_10
+    stepvalue: 10
+  - id: Achivement_CompleteLevel_Easy_01
+    stepvalue: 100
+  - id: Achivement_CompleteLevel_Easy_07
+    stepvalue: 14.29
+  - id: Achivement_CompleteLevel_Easy_10
+    stepvalue: 10
+  - id: Achivement_CompleteLevel_Normal_01
+    stepvalue: 100
+  - id: Achivement_CompleteLevel_Normal_07
+    stepvalue: 14.29
+  - id: Achivement_CompleteLevel_Normal_10
+    stepvalue: 10
+  - id: Achivement_CompleteLevel_Hard_01
+    stepvalue: 100
+  - id: Achivement_CompleteLevel_Hard_07
+    stepvalue: 14.29
+  - id: Achivement_CompleteLevel_Hard_10
+    stepvalue: 10
+  - id: Achivement_CompleteLevel_VeryHard_01
+    stepvalue: 100
+  - id: Achivement_CompleteLevel_VeryHard_07
+    stepvalue: 14.29
+  - id: Achivement_CompleteLevel_VeryHard_10
+    stepvalue: 10
+  - id: Achivement_Collect_Ghost
+    stepvalue: 100
+  - id: Achivement_Collect_Story
+    stepvalue: 100
+  - id: Achivement_Collection_GhostCollection
+    stepvalue: 100
+  - id: Achivement_Collection_EndingCollection
+    stepvalue: 100
+  - id: Achivement_SecretAction_Kick
+    stepvalue: 10
+  - id: Achivement_SecretAction_PW
+    stepvalue: 10
+  - id: Achivement_SecretAction_HW
+    stepvalue: 1
+  - id: Achivement_SecretAction_HG
+    stepvalue: 3.34
+  - id: Achivement_SecretAction_Soymilk
+    stepvalue: 0.2
+  - id: Achivement_SecretAction_Pill
+    stepvalue: 0.67
