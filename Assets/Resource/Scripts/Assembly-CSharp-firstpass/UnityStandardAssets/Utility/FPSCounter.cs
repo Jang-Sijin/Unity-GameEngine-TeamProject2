@@ -1,8 +1,0 @@
-using UnityEngine;
-
-namespace UnityStandardAssets.Utility
-{
-	public class FPSCounter : MonoBehaviour
-	{
-	}
-}
