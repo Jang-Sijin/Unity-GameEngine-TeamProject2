@@ -5,17 +5,16 @@ using UnityEngine;
 public class FPSController : MonoBehaviour
 {
         [Header("Movement Settings")]
-        public float moveSpeed = 1f;
-        public float crouchSpeed = 0.4f;
-        public float runSpeedMultiplier = 2f;
+        public float moveSpeed = 2f; // 이동 속도
+        public float crouchSpeed = 0.4f; // 앉기 속도
+        public float runSpeedMultiplier = 2f; // 달리는 속도 = 이동 속도 ^ n승
 
-        public float crouchHeight = 0.5f;
+        public float crouchHeight = 0.5f; // 앉기 값
 
         [HideInInspector]
-        public static bool crouch = false;
-        public bool lockCursor;
+        private static bool crouch = false; // 앉기
+        public bool lockCursor; // 커서 고정
         
-        // PlayerStats playerStats;
         private CharacterController characterController;
         public Transform camHolder;
         private float moveSpeedLocal;
@@ -25,17 +24,12 @@ public class FPSController : MonoBehaviour
         [HideInInspector]
         public Animator mainCameraAnimator;
 
-        // private WeaponManager weaponManager;
-
         [HideInInspector]
         public bool isClimbing = false;
 
-        private float inAirTime;
-
         [HideInInspector]
         public bool mouseLookEnabled = true;
-
-        //Velocity calculation variable
+        
         private Vector3 previousPos = new Vector3();
         
         Vector3 dirVector;
@@ -76,22 +70,14 @@ public class FPSController : MonoBehaviour
 
         private void OnEnable()
         {
-            // if (!InputManager.useMobileInput)
-            // {
-            //     Cursor.lockState = CursorLockMode.Confined;
-            //     Cursor.visible = false;
-            // }
-
             characterController = GetComponent<CharacterController>();
 
-            defaultColliderHeight = GetComponent<CharacterController>().height;
+            defaultColliderHeight = GetComponent<CharacterController>().height; // 캐릭터 키(높이)
 
             distanceToGround = GetComponent<CharacterController>().bounds.extents.y;
             mainCameraAnimator = Camera.main.GetComponent<Animator>();
-
-            // playerStats = FindObjectOfType<PlayerStats>();
+            
             audioSource = GetComponent<AudioSource>();
-            // weaponManager = FindObjectOfType<WeaponManager>();
             inputManager = FindObjectOfType<InputManager>();
         }
 
@@ -109,7 +95,7 @@ public class FPSController : MonoBehaviour
                 GetComponent<CharacterController>();
 
             
-            if (!isGrounded())
+            if (!IsGrounded())
             {
                 airTime += Time.deltaTime;
             }
@@ -118,7 +104,6 @@ public class FPSController : MonoBehaviour
                 if (airTime > hardLandingTime) 
                 {
                         mainCameraAnimator.Play("HardLanding");
-                        // playerStats.ApplyDamage((int)(playerStats.minFailingDamage * airTime));
                         if (hardLandingSound != null)
                             audioSource.PlayOneShot(hardLandingSound);
 
@@ -136,39 +121,23 @@ public class FPSController : MonoBehaviour
             if (!canMove)
                 return;
             
-            // if (!InputManager.useMobileInput)
-            // {
-                StandaloneMovement();
-            // }
-            // else
-            // {
-            //     MobileMovement();
-            // }
-       
+            StandaloneMovement();
+
             Crouch();
-            Landing();
 
             CharacterMovement();
-            // if (mouseLookEnabled && !InventoryManager.showInventory && lockCursor)
-            //     MouseLook();
+             if (mouseLookEnabled && lockCursor)
+                 MouseLook();
 
             if (!isClimbing)
             {
-                // if (isGrounded() && playerStats.stamina > 5 && Input.GetButtonDown("Jump"))
-                // {
-                //     playerStats.stamina -= 5;
-                //     moveDirection.y = jumpForce;
-                // }
-                    characterController.Move(moveDirection * Time.deltaTime);
+                characterController.Move(moveDirection * Time.deltaTime);
             }
 
             if(lastSwimmingState == true)
             {
                 lastSwimmingState = false;
             }
-
-            // if(weaponManager.activeWeapon != null)
-            //     weaponHolderAnimator.SetBool("Reloading",weaponManager.activeWeapon.reloading);
         }
 
         void MouseLook()
@@ -176,16 +145,8 @@ public class FPSController : MonoBehaviour
             Quaternion targetOrientation = Quaternion.Euler(targetDirection);
 
             Vector2 mouseDelta = new Vector2();
-
-            // if (InputManager.useMobileInput)
-            // {
-            //     mouseDelta = new Vector2(InputManager.touchPanelLook.x * Time.deltaTime, InputManager.touchPanelLook.y * Time.deltaTime);
-            // }
-            // else if (!InputManager.useMobileInput)
-            // {
-                mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
-            //}
-
+            
+            mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
             mouseDelta = Vector2.Scale(mouseDelta, new Vector2(sensitivity.x * smoothing.x, sensitivity.y * smoothing.y));
 
             _smoothMouse.x = Mathf.Lerp(_smoothMouse.x, mouseDelta.x, 1f / smoothing.x);
@@ -236,51 +197,16 @@ public class FPSController : MonoBehaviour
             if (canMove == false)
                 return;
 
-            // if(weaponHolderAnimator == null)
-            // {
-            //     weaponHolderAnimator = GameObject.Find("Weapon holder").GetComponent<Animator>();
-            // }
-
-            if (isGrounded())
+            if (IsGrounded())
             {
                 if (CheckMovement())
                 {
                     moveSpeedLocal = moveSpeed;
                 }
 
-                // if (Input.GetKey(inputManager.Run)&& playerStats.stamina > 0 && !isClimbing && !crouch && weaponHolderAnimator.GetBool("Walk") == true)
-                // {
-                //     moveSpeedLocal = runSpeedMultiplier * moveSpeed;
-                //     weaponHolderAnimator.SetBool("Run", true);
-                // }
-                // else
-                //     weaponHolderAnimator.SetBool("Run", false);
-            }
-
-            if (crouch)
-            {
-                moveSpeedLocal = crouchSpeed;
-            }
-
-            if (Input.GetKeyDown(inputManager.Crouch))
-            {
-                crouch = !crouch;
-            }
-            
-            // if (Input.GetKeyDown(inputManager.Jump) && !isSwimming)
-            // {
-            //     crouch = false;
-            // }
-            
-        }
-        
-        public void MobileMovement()
-        {
-            if (isGrounded())
-            {
-                if (CheckMovement())
-                {
-                    moveSpeedLocal = moveSpeed;
+                if (Input.GetKey(inputManager.Run) && !isClimbing && !crouch)
+                { 
+                    moveSpeedLocal = runSpeedMultiplier * moveSpeed;
                 }
             }
 
@@ -293,13 +219,8 @@ public class FPSController : MonoBehaviour
             {
                 crouch = !crouch;
             }
-            // if (Input.GetKeyDown(inputManager.Jump))
-            // {
-            //     crouch = false;
-            // }
-            
         }
-        
+
         void CharacterMovement()
         {
             if (canMove == false)
@@ -320,22 +241,15 @@ public class FPSController : MonoBehaviour
             
             gravity = 10;
 
-            //Gravity!!!
+            // 중력 설정!!!
             if(!isClimbing)
                 moveDirection.y -= gravity * Time.deltaTime;
 
             if (isClimbing)
             {
                 crouch = false;
-
-                // if (!InputManager.useMobileInput)
-                // {
-                    dirVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
-                // }
-                // else if(InputManager.useMobileInput)
-                // {
-                //     dirVector = new Vector3(InputManager.joystickInputVector.x, 0, InputManager.joystickInputVector.y);
-                // }
+                
+                dirVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
                 
                 Vector3 verticalDirection = transform.up;
                 Vector3 moveDirection = (verticalDirection) * dirVector.z+ camRight * dirVector.x;
@@ -344,52 +258,22 @@ public class FPSController : MonoBehaviour
             }
             else if(!isClimbing)
             {
-                // if (!InputManager.useMobileInput)
-                // {
-                    dirVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
-                // }
-                // else if(InputManager.useMobileInput)
-                // {
-                //     dirVector = new Vector3(InputManager.joystickInputVector.x, 0, InputManager.joystickInputVector.y);
-                // }
-                Vector3 moveDirection = camForward * dirVector.z + camRight * dirVector.x;
-
-                characterController.Move(moveDirection * moveSpeedLocal * Time.deltaTime);
-            }
-            else if(!isClimbing)
-            {
-                // if (!InputManager.useMobileInput)
-                // {
-                    dirVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
-                // }
-                // else if (InputManager.useMobileInput)
-                // {
-                //     dirVector = new Vector3(InputManager.joystickInputVector.x, 0, InputManager.joystickInputVector.y);
-                // }
+                dirVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
                 Vector3 moveDirection = camForward * dirVector.z + camRight * dirVector.x;
 
                 characterController.Move(moveDirection * moveSpeedLocal * Time.deltaTime);
             }
 
-            //print("Is Swimming : " + isSwimming + "/n" + "highestTriggerEdge : " + highestTriggerEdge + "/n" + "hitTheGround : " + hitTheGround);
+            // print("highestTriggerEdge : " + highestTriggerEdge + "/n" + "hitTheGround : " + hitTheGround);
             
         }
 
         public static bool CheckMovement()
         {
-            // if (!InputManager.useMobileInput)
-            // {
-                if (Input.GetAxis("Vertical") > 0 || Input.GetAxis("Vertical") < 0 || Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0)
-                {
+            if (Input.GetAxis("Vertical") > 0 || Input.GetAxis("Vertical") < 0 || Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0)
+            {
                     return true;
-                }
-            // }
-
-            // if(InputManager.useMobileInput)
-            // {
-            //     if (InputManager.joystickInputVector.x > 0 || InputManager.joystickInputVector.x < 0 || InputManager.joystickInputVector.y > 0 || InputManager.joystickInputVector.y < 0)
-            //         return true;
-            // }
+            }
 
             return false;
         }
@@ -400,9 +284,6 @@ public class FPSController : MonoBehaviour
             {
                 characterController.height = Mathf.Lerp(characterController.height, crouchHeight, Time.deltaTime * 8);
                 camHolder.transform.localPosition = Vector3.Lerp(camHolder.transform.localPosition, new Vector3(0, 0.2f, 0), Time.deltaTime * 4 );
-                //Ray ray = new Ray();
-                //ray.origin = transform.position;
-                //ray.direction = transform.up;
             }
             else
             {
@@ -417,15 +298,10 @@ public class FPSController : MonoBehaviour
             previousPos = transform.position;
             return velocity;
         }
-        
-        public void CrouchMobile()
-        {
-            crouch = !crouch;
-        }
 
         private bool haveCollision = false;
 
-        public bool isGrounded()
+        public bool IsGrounded()
         {
             haveCollision = characterController.isGrounded;
 
@@ -439,17 +315,5 @@ public class FPSController : MonoBehaviour
             }
 
             return true;
-        }
-
-        void Landing()
-        {
-            if(!isGrounded())
-            {
-                inAirTime += Time.deltaTime;
-            }
-            else
-            {
-                inAirTime = 0;
-            }
         }
 }

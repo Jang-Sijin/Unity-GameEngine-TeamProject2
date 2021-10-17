@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
-    // [모바일 설정]
-    // public bool _useMobileInput;
-    
-    // [SerializeField] public static bool useMobileInput;
-    
     [Header("Movement Keys")]   // 이동 관련 키
     public KeyCode Crouch;      // 앉기
     public KeyCode Run;         // 뛰기
@@ -22,7 +17,7 @@ public class InputManager : MonoBehaviour
     
     private void Update()
     {
-        MovementDirection();
+        MovementDirection(); // 플레이어 이동
     }
     
     public static float horizontalFactor;
