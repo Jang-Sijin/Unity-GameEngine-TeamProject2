@@ -42,6 +42,8 @@ public class ObjectDetectionRaycast : MonoBehaviour
         {
             if (hit.collider.tag == "Door") // 테그가 문(Door)일 때
             {
+                // 문(Door) 열기/닫기 수행
+                // ...
                 InReach = true;
 
                 // 디스플레이가 플레이어 문 손에 닿는 곳에 있을 때 UI 출력.

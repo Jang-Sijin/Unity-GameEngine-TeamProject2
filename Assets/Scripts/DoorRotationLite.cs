@@ -35,7 +35,7 @@ public class DoorRotationLite : MonoBehaviour
     int State;
 
     int TimesRotated = 0;
-    [HideInInspector] public bool RotationPending = false; // Detection.cs가 접근(access)용
+    [HideInInspector] public bool RotationPending = false; // ObjectDetectionRaycast.cs가 접근(access)용
 
     // Debug Settings
     public bool VisualizeHinge = false;

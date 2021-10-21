@@ -12,6 +12,7 @@ public class InputManager : MonoBehaviour
     public KeyCode Use;            // 아이템 사용
     public KeyCode Inventory;      // 인벤토리
     public KeyCode KeyDescription; // 조작키 설명
+    public KeyCode Option;         // 게임 옵션
 
     private float playerBodyMovementSmoothness = 5f; // 플레이어 부드러운 이동 
     
