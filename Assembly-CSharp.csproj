@@ -41,7 +41,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ObjectDetectionRaycast.cs" />
      <Compile Include="Assets\Scripts\InputManager.cs" />
+     <Compile Include="Assets\Scripts\DoorRotationLite.cs" />
      <Compile Include="Assets\Scripts\MoveMainCameraSpin.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\FPSController.cs" />
@@ -190,6 +192,7 @@
      <None Include="Assets\Resource\Resources\camerafilterpack_drawing_enhancedcomics.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_extra_showfps.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_drawing_toon.shader" />
+     <None Include="Assets\Resource\DeskPack\FurniturePack1\Shader\SurfaceMetallicSmoothnessAmbient.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_color_brightcontrastsaturation.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_blur_radial.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_blend2camera_screen.shader" />
@@ -890,6 +893,36 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Path.Editor">
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Editor">
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Runtime">
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.SpriteShape.Runtime">
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEngineBridge.001">
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEditorBridge.001">
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.SpriteShape.Editor">
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

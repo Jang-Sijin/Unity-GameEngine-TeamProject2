@@ -33,4 +33,9 @@ public class InputManager : MonoBehaviour
     {
         return Input.GetKey(Run);
     }
+
+    public bool KeyDownPlayerUse()
+    {
+        return Input.GetKey(Use);
+    }
 }

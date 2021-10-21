@@ -79,6 +79,12 @@ public class FPSController : MonoBehaviour
             
             audioSource = GetComponent<AudioSource>();
             inputManager = FindObjectOfType<InputManager>();
+
+            if (lockCursor)
+            {
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+            }
         }
 
         [HideInInspector]
