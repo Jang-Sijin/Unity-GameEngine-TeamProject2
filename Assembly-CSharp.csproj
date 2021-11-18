@@ -47,6 +47,86 @@
      <Compile Include="Assets\Scripts\MoveMainCameraSpin.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\FPSController.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\UFPS\Hit_By_UFPS.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetPreviousState.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetUseSightTransform.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\ExampleLaserAttackComponent.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\AIPlayMakerActionBase.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\Shooter.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetHealthAmount.cs" />
+     <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\RotationOscillator.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\ExampleDefendScript.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetDamageMultiplier.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetStateByIndex.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\SceneGenerator.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetKeepAgentUpright.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\ExampleProjectile.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GotHit.cs" />
+     <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetDamageMultiplier.cs" />
+     <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetCurrentStateByIndex.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SubtractHealth.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetCurrentState.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetCurrentDestination.cs" />
+     <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetUseSightFalloff.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetIsActive.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\ExampleSpaceshipNavigation.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\AddHealth.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\CharacterMover.cs" />
+     <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetCurrentState.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetSightDistance.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetIsDefending.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\ProjectileCollider.cs" />
+     <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\DemoDoneState.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\Crosshairs.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetSightDistance.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\PlayerStats.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetSightDirection.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\Alarm.cs" />
+     <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\Rotator.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetStateByName.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\PlayCurrentStateAudio.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\Astar\AstarCharacterController.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetUseSightTransform.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetSightTransform.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetSightPosition.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetFOV.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetSightPosition.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\ExampleAttackComponent.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetIsDefending.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\MoveUpAndDown.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetHealthAmount.cs" />
+     <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\EnemyRangeColorChange.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\CachePlayerTagsOnAwake.cs" />
+     <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetIsActive.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetUseSightFalloff.cs" />
+     <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\SpaceShipCheck.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\ExampleGotHitComponent.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\Astar\MecanimAstarPathScript.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetFOV.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetCurrentStateByName.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetCurrentStateName.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\SetPatrolPoints.cs" />
+     <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\AdjustProjectorSizeToSightDistance.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\PlayerBuildingStats.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetState.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetMaxHealthAmount.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\ExampleCallbacks.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetSightTransform.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\Astar\AstarRichAICharacterController.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetStateCount.cs" />
+     <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetMaxHealthAmount.cs" />
+     <Compile Include="Assets\AIBehavior\Scenes\MultiPlayerExamples\MultiPlayerScripts\MultiPlayerLineOfSightTrigger.cs" />
+     <Compile Include="Assets\AIBehavior\ExampleScripts\ExamplePlayerBodyTarget.cs" />
+     <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetKeepAgentUpright.cs" />
+     <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\GameManager.cs" />
+     <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\TowerCheck.cs" />
+     <Compile Include="Assets\AIBehavior\Scenes\MultiPlayerExamples\MultiPlayerScripts\CustomNoPlayerInSightTrigger.cs" />
      <None Include="Assets\Resource\Resources\camerafilterpack_fx_funk.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_gradients_desert.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_gradients_firegradient.shader" />
@@ -74,6 +154,7 @@
      <None Include="Assets\Resource\Resources\camerafilterpack_blur_bloom.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_tv_led.shader" />
      <None Include="Assets\Resource\Resources\amirisshape.shader" />
+     <None Include="Assets\AIBehavior\AIBehaviorDemoScene\Shaders\DiffuseWithAdjustableIllumin.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_fx_drunk2.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_vision_aura.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_distortion_dream.shader" />
@@ -132,6 +213,7 @@
      <None Include="Assets\Resource\Resources\camerafilterpack_vision_warp.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_fx_mirror.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_blend2camera_difference.shader" />
+     <None Include="Assets\AIBehavior\Documentation\_ReadMe.txt" />
      <None Include="Assets\Resource\Resources\camerafilterpack_fx_hypno.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_oculus_nightvision2.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_blend2camera_saturation.shader" />
@@ -190,7 +272,9 @@
      <None Include="Assets\Resource\Resources\camerafilterpack_tv_brokenglass.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_distortion_noise.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_drawing_enhancedcomics.shader" />
+     <None Include="Assets\AIBehavior\Documentation\_ReleaseNotes.txt" />
      <None Include="Assets\Resource\Resources\camerafilterpack_extra_showfps.shader" />
+     <None Include="Assets\AIBehavior\AIBehaviorDemoScene\Shaders\Projector Light.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_drawing_toon.shader" />
      <None Include="Assets\Resource\DeskPack\FurniturePack1\Shader\SurfaceMetallicSmoothnessAmbient.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_color_brightcontrastsaturation.shader" />
@@ -227,6 +311,7 @@
      <None Include="Assets\Resource\Resources\camerafilterpack_tv_distorted.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_fx_digitalmatrixdistortion.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_drawing_cellshading.shader" />
+     <None Include="Assets\AIBehavior\AIBehaviorDemoScene\Shaders\AlphaSelfIllumWithFade.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_fx_plasma.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_antialiasing_fxaa.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_blend2camera_splitscreen.shader" />
@@ -241,6 +326,7 @@
      <None Include="Assets\Resource\Resources\camerafilterpack_tv_arcade.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_edge_sobel.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_edge_sigmoid.shader" />
+     <None Include="Assets\AIBehavior\Extras\UFPS\UFPS_ReadMe.txt" />
      <None Include="Assets\Resource\Resources\camerafilterpack_colors_darkcolor.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_blur_gaussianblur.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_drawing_manga3.shader" />
@@ -926,6 +1012,14 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AIBehavior.csproj">
+      <Project>{6086c067-b7ef-3993-9507-5dde40df00aa}</Project>
+      <Name>AIBehavior</Name>
+    </ProjectReference>
+    <ProjectReference Include="AIBehaviorNav_Editor.csproj">
+      <Project>{b9777a5a-3ff7-4c03-4036-d8951df6dde8}</Project>
+      <Name>AIBehaviorNav_Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

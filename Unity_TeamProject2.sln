@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1ff3b438-4bab-2238-2e54-ad03e27a1be6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIBehavior", "AIBehavior.csproj", "{6086c067-b7ef-3993-9507-5dde40df00aa}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{7b4200dc-cda4-bd16-c381-9264a401858d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIBehaviorNav_Editor", "AIBehaviorNav_Editor.csproj", "{b9777a5a-3ff7-4c03-4036-d8951df6dde8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,6 +16,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1ff3b438-4bab-2238-2e54-ad03e27a1be6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1ff3b438-4bab-2238-2e54-ad03e27a1be6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6086c067-b7ef-3993-9507-5dde40df00aa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6086c067-b7ef-3993-9507-5dde40df00aa}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7b4200dc-cda4-bd16-c381-9264a401858d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7b4200dc-cda4-bd16-c381-9264a401858d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b9777a5a-3ff7-4c03-4036-d8951df6dde8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b9777a5a-3ff7-4c03-4036-d8951df6dde8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,7 +8,7 @@ public class MoveMainCameraSpin : MonoBehaviour
     InputManager input;
     FPSController controller;
 
-    public float runHeadSpinSpeed = 2;
+    public float runHeadSpinSpeed = 1;
 
 
     private void Start()
