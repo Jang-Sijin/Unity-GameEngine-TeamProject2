@@ -1334,10 +1334,10 @@ MonoBehaviour:
   - {fileID: 2298313602738387377}
   - {fileID: 2298313602738387343}
   - {fileID: 2298313602738387339}
-  - {fileID: 2298313602738387337}
-  - {fileID: 2298313602738387335}
-  - {fileID: 2298313602738387329}
-  - {fileID: 2298313602738387359}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   animationStatesGameObject: {fileID: 2298313602727611469}
 --- !u!114 &2298313602738387381
 MonoBehaviour:
@@ -1545,11 +1545,6 @@ GameObject:
   - component: {fileID: 2298313602738387377}
   - component: {fileID: 2298313602738387343}
   - component: {fileID: 2298313602738387339}
-  - component: {fileID: 2298313602738387337}
-  - component: {fileID: 2298313602738387335}
-  - component: {fileID: 2298313602738387329}
-  - component: {fileID: 2298313602738387359}
-  - component: {fileID: 2298313602738276233}
   m_Layer: 0
   m_Name: AnimationStates
   m_TagString: Untagged
@@ -1655,111 +1650,6 @@ MonoBehaviour:
   crossFadeOut: 0
   transitionTime: 0.2
   foldoutOpen: 0
---- !u!114 &2298313602738387337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2298313602727611469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d8f81bc193daf543bf6a41cdb398b33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: attack_r
-  startFrame: 0
-  endFrame: 0
-  speed: 1
-  animationWrapMode: 2
-  crossFadeIn: 0
-  crossFadeOut: 0
-  transitionTime: 0.2
-  foldoutOpen: 0
---- !u!114 &2298313602738387335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2298313602727611469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d8f81bc193daf543bf6a41cdb398b33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: defend
-  startFrame: 0
-  endFrame: 0
-  speed: 1
-  animationWrapMode: 2
-  crossFadeIn: 0
-  crossFadeOut: 0
-  transitionTime: 0.2
-  foldoutOpen: 0
---- !u!114 &2298313602738387329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2298313602727611469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d8f81bc193daf543bf6a41cdb398b33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: hurt_000
-  startFrame: 0
-  endFrame: 0
-  speed: 1
-  animationWrapMode: 2
-  crossFadeIn: 0
-  crossFadeOut: 0
-  transitionTime: 0.2
-  foldoutOpen: 0
---- !u!114 &2298313602738387359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2298313602727611469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d8f81bc193daf543bf6a41cdb398b33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: death_fallToKnees_000
-  startFrame: 0
-  endFrame: 0
-  speed: 1
-  animationWrapMode: 1
-  crossFadeIn: 0
-  crossFadeOut: 0
-  transitionTime: 0.2
-  foldoutOpen: 0
---- !u!114 &2298313602738276233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2298313602727611469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d8f81bc193daf543bf6a41cdb398b33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: jump
-  startFrame: 0
-  endFrame: 0
-  speed: 1
-  animationWrapMode: 0
-  crossFadeIn: 0
-  crossFadeOut: 0
-  transitionTime: 0.2
-  foldoutOpen: 1
 --- !u!1 &2298313602727611471
 GameObject:
   m_ObjectHideFlags: 0

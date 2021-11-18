@@ -1,0 +1,1159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1813455633885173}
+  m_IsPrefabParent: 1
+--- !u!1 &1813455633885173
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4528996697466159}
+  - component: {fileID: 111602721736359057}
+  m_Layer: 0
+  m_Name: '@CN_2180_02_OBJ3'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4528996697466159
+Transform:
+  m_GameObject: {fileID: 1813455633885173}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4475643225917303}
+  - {fileID: 4381880379251373}
+  - {fileID: 4258376210593110}
+  - {fileID: 4169136635375396}
+  - {fileID: 4843108137533509}
+  - {fileID: 4845059554386150}
+  - {fileID: 4014671507283400}
+  - {fileID: 4381881567495256}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111602721736359057
+Animation:
+  m_GameObject: {fileID: 1813455633885173}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 6963f173a7069164096636715b097ec9, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1878324466069025
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4475643225917303}
+  m_Layer: 0
+  m_Name: chair_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4475643225917303
+Transform:
+  m_GameObject: {fileID: 1878324466069025}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.209136, y: -1.813455, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4008325318470552}
+  - {fileID: 4673591913498061}
+  - {fileID: 4136707077647713}
+  - {fileID: 4864231204234528}
+  m_Father: {fileID: 4528996697466159}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1857746179827373
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4008325318470552}
+  - component: {fileID: 33914563126051857}
+  - component: {fileID: 23371080202539505}
+  m_Layer: 0
+  m_Name: chair_01_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4008325318470552
+Transform:
+  m_GameObject: {fileID: 1857746179827373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3064456, y: 0.03413963, z: 0.2917438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4475643225917303}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33914563126051857
+MeshFilter:
+  m_GameObject: {fileID: 1857746179827373}
+  m_Mesh: {fileID: 4300000, guid: 0c07bbf85b4bd6e4b9c9c34a1e320ad2, type: 2}
+--- !u!23 &23371080202539505
+MeshRenderer:
+  m_GameObject: {fileID: 1857746179827373}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1689165275241933
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4673591913498061}
+  - component: {fileID: 33888374116202483}
+  - component: {fileID: 23861223916895026}
+  m_Layer: 0
+  m_Name: chair_01_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4673591913498061
+Transform:
+  m_GameObject: {fileID: 1689165275241933}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3064456, y: 0.03413963, z: 0.2917438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4475643225917303}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33888374116202483
+MeshFilter:
+  m_GameObject: {fileID: 1689165275241933}
+  m_Mesh: {fileID: 4300000, guid: 6f58b5d2f68225f4db91b8c4aedc8fdb, type: 2}
+--- !u!23 &23861223916895026
+MeshRenderer:
+  m_GameObject: {fileID: 1689165275241933}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1926240763199015
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4136707077647713}
+  - component: {fileID: 33695638550736689}
+  - component: {fileID: 23246562602965074}
+  m_Layer: 0
+  m_Name: chair_01_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4136707077647713
+Transform:
+  m_GameObject: {fileID: 1926240763199015}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3064456, y: 0.03413963, z: 0.2917438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4475643225917303}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33695638550736689
+MeshFilter:
+  m_GameObject: {fileID: 1926240763199015}
+  m_Mesh: {fileID: 4300000, guid: 74b0a881d8066744db9aab35485d9069, type: 2}
+--- !u!23 &23246562602965074
+MeshRenderer:
+  m_GameObject: {fileID: 1926240763199015}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1365707517536455
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4864231204234528}
+  - component: {fileID: 33522782779972027}
+  - component: {fileID: 23328015067076989}
+  m_Layer: 0
+  m_Name: chair_01_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4864231204234528
+Transform:
+  m_GameObject: {fileID: 1365707517536455}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3064456, y: 0.03413963, z: 0.2917438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4475643225917303}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33522782779972027
+MeshFilter:
+  m_GameObject: {fileID: 1365707517536455}
+  m_Mesh: {fileID: 4300000, guid: 1809c9d2e925378498761c2f1078525f, type: 2}
+--- !u!23 &23328015067076989
+MeshRenderer:
+  m_GameObject: {fileID: 1365707517536455}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1360052718845104
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4381880379251373}
+  m_Layer: 0
+  m_Name: chair_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4381880379251373
+Transform:
+  m_GameObject: {fileID: 1360052718845104}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.220542, y: 1.723779, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4746485344106234}
+  - {fileID: 4742018181831920}
+  - {fileID: 4158619276551487}
+  - {fileID: 4400838188938946}
+  - {fileID: 4455573780121226}
+  m_Father: {fileID: 4528996697466159}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1264540796111963
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4746485344106234}
+  - component: {fileID: 33087883179728555}
+  - component: {fileID: 23419371547625713}
+  m_Layer: 0
+  m_Name: chair_02_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4746485344106234
+Transform:
+  m_GameObject: {fileID: 1264540796111963}
+  m_LocalRotation: {x: 0, y: 0, z: 0.03934703, w: 0.9992256}
+  m_LocalPosition: {x: -0.3130443, y: -0.04321909, z: 0.2917438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4381880379251373}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.510001}
+--- !u!33 &33087883179728555
+MeshFilter:
+  m_GameObject: {fileID: 1264540796111963}
+  m_Mesh: {fileID: 4300000, guid: 9b13c76c66ded6b408641c12361edb87, type: 2}
+--- !u!23 &23419371547625713
+MeshRenderer:
+  m_GameObject: {fileID: 1264540796111963}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1816670325088540
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4742018181831920}
+  - component: {fileID: 33610003496215891}
+  - component: {fileID: 23603951233893301}
+  m_Layer: 0
+  m_Name: chair_02_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4742018181831920
+Transform:
+  m_GameObject: {fileID: 1816670325088540}
+  m_LocalRotation: {x: 0.001355233, y: -0.03441642, z: 0.03932368, w: 0.9986327}
+  m_LocalPosition: {x: -0.3130443, y: -0.04321909, z: 0.2917438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4381880379251373}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -7.649534E-09, y: 3.947668, z: -4.510001}
+--- !u!33 &33610003496215891
+MeshFilter:
+  m_GameObject: {fileID: 1816670325088540}
+  m_Mesh: {fileID: 4300000, guid: 4fd920dc02200a24aab2fd0ba8ab4a94, type: 2}
+--- !u!23 &23603951233893301
+MeshRenderer:
+  m_GameObject: {fileID: 1816670325088540}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1328013304165961
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4158619276551487}
+  - component: {fileID: 33725752649545298}
+  - component: {fileID: 23739805982284550}
+  m_Layer: 0
+  m_Name: chair_02_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4158619276551487
+Transform:
+  m_GameObject: {fileID: 1328013304165961}
+  m_LocalRotation: {x: 0, y: 0, z: 0.03934703, w: 0.9992256}
+  m_LocalPosition: {x: -0.3130443, y: -0.04321909, z: 0.2917438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4381880379251373}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.510001}
+--- !u!33 &33725752649545298
+MeshFilter:
+  m_GameObject: {fileID: 1328013304165961}
+  m_Mesh: {fileID: 4300000, guid: 64a358e95258b5a4db30c3d18fcbc235, type: 2}
+--- !u!23 &23739805982284550
+MeshRenderer:
+  m_GameObject: {fileID: 1328013304165961}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1061004144192725
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4400838188938946}
+  - component: {fileID: 33681211533146828}
+  - component: {fileID: 23861364954210757}
+  m_Layer: 0
+  m_Name: chair_02_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4400838188938946
+Transform:
+  m_GameObject: {fileID: 1061004144192725}
+  m_LocalRotation: {x: 0, y: 0, z: 0.03934703, w: 0.9992256}
+  m_LocalPosition: {x: -0.3130443, y: -0.04321909, z: 0.2917438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4381880379251373}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.510001}
+--- !u!33 &33681211533146828
+MeshFilter:
+  m_GameObject: {fileID: 1061004144192725}
+  m_Mesh: {fileID: 4300000, guid: e7e4f20e13ca2d64d9ca1dfaf6ecd957, type: 2}
+--- !u!23 &23861364954210757
+MeshRenderer:
+  m_GameObject: {fileID: 1061004144192725}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1354435884745298
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4455573780121226}
+  - component: {fileID: 33609485944767896}
+  - component: {fileID: 23003361644491964}
+  m_Layer: 0
+  m_Name: chair_02_05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4455573780121226
+Transform:
+  m_GameObject: {fileID: 1354435884745298}
+  m_LocalRotation: {x: 0, y: 0, z: 0.03934703, w: 0.9992256}
+  m_LocalPosition: {x: -0.3130443, y: -0.04321909, z: 0.2917438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4381880379251373}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.510001}
+--- !u!33 &33609485944767896
+MeshFilter:
+  m_GameObject: {fileID: 1354435884745298}
+  m_Mesh: {fileID: 4300000, guid: 7d641313096a4874ba7dd1c37dc2046e, type: 2}
+--- !u!23 &23003361644491964
+MeshRenderer:
+  m_GameObject: {fileID: 1354435884745298}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1959306033192880
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4258376210593110}
+  m_Layer: 0
+  m_Name: chair_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4258376210593110
+Transform:
+  m_GameObject: {fileID: 1959306033192880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.07368471, y: -1.733549, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4058780470656311}
+  - {fileID: 4732149944595576}
+  m_Father: {fileID: 4528996697466159}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1273891983159781
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4058780470656311}
+  - component: {fileID: 33009692884003172}
+  - component: {fileID: 23822877643648769}
+  m_Layer: 0
+  m_Name: chair_03_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4058780470656311
+Transform:
+  m_GameObject: {fileID: 1273891983159781}
+  m_LocalRotation: {x: 0, y: 0, z: 0.01902299, w: 0.999819}
+  m_LocalPosition: {x: -0.3169606, y: 0.005960464, z: 0.2917438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258376210593110}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.180005}
+--- !u!33 &33009692884003172
+MeshFilter:
+  m_GameObject: {fileID: 1273891983159781}
+  m_Mesh: {fileID: 4300000, guid: 8b5343f8df6d5ef45b104efd6682087d, type: 2}
+--- !u!23 &23822877643648769
+MeshRenderer:
+  m_GameObject: {fileID: 1273891983159781}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1450712016961101
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4732149944595576}
+  - component: {fileID: 33629785347664142}
+  - component: {fileID: 23667176413453659}
+  m_Layer: 0
+  m_Name: chair_03_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4732149944595576
+Transform:
+  m_GameObject: {fileID: 1450712016961101}
+  m_LocalRotation: {x: 0, y: 0, z: 0.01902299, w: 0.999819}
+  m_LocalPosition: {x: -0.1204491, y: 0.919546, z: 0.3517704}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4258376210593110}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.180005}
+--- !u!33 &33629785347664142
+MeshFilter:
+  m_GameObject: {fileID: 1450712016961101}
+  m_Mesh: {fileID: 4300000, guid: d9403e378d6cfc1489bc089763784715, type: 2}
+--- !u!23 &23667176413453659
+MeshRenderer:
+  m_GameObject: {fileID: 1450712016961101}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1942536035284612
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4169136635375396}
+  m_Layer: 0
+  m_Name: chair_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4169136635375396
+Transform:
+  m_GameObject: {fileID: 1942536035284612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.04532552, y: 1.72117, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4268241914506645}
+  - {fileID: 4725247861863709}
+  m_Father: {fileID: 4528996697466159}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1874515869096628
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4268241914506645}
+  - component: {fileID: 33332063435161867}
+  - component: {fileID: 23210343326739970}
+  m_Layer: 0
+  m_Name: chair_04_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4268241914506645
+Transform:
+  m_GameObject: {fileID: 1874515869096628}
+  m_LocalRotation: {x: 0, y: 0, z: -8.726646E-05, w: 1}
+  m_LocalPosition: {x: -0.3162461, y: -0.008452892, z: 0.2917438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4169136635375396}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.01}
+--- !u!33 &33332063435161867
+MeshFilter:
+  m_GameObject: {fileID: 1874515869096628}
+  m_Mesh: {fileID: 4300000, guid: eee3e6762f26de046a2e0b01bbe5a813, type: 2}
+--- !u!23 &23210343326739970
+MeshRenderer:
+  m_GameObject: {fileID: 1874515869096628}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1705464167143517
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4725247861863709}
+  - component: {fileID: 33557579331634703}
+  - component: {fileID: 23093142186684168}
+  m_Layer: 0
+  m_Name: chair_04_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4725247861863709
+Transform:
+  m_GameObject: {fileID: 1705464167143517}
+  m_LocalRotation: {x: 0, y: 0, z: -8.726646E-05, w: 1}
+  m_LocalPosition: {x: -0.1317108, y: -0.9245313, z: 0.3517704}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4169136635375396}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.01}
+--- !u!33 &33557579331634703
+MeshFilter:
+  m_GameObject: {fileID: 1705464167143517}
+  m_Mesh: {fileID: 4300000, guid: a86513f672eb7e54992c6b723c52d6c4, type: 2}
+--- !u!23 &23093142186684168
+MeshRenderer:
+  m_GameObject: {fileID: 1705464167143517}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1095321351859719
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4843108137533509}
+  - component: {fileID: 33022859394909649}
+  - component: {fileID: 23072104430645621}
+  m_Layer: 0
+  m_Name: chair_04 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4843108137533509
+Transform:
+  m_GameObject: {fileID: 1095321351859719}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.104418, y: -1.795685, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4528996697466159}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33022859394909649
+MeshFilter:
+  m_GameObject: {fileID: 1095321351859719}
+  m_Mesh: {fileID: 4300000, guid: 6e0366b5288bc11499f3627b8d543992, type: 2}
+--- !u!23 &23072104430645621
+MeshRenderer:
+  m_GameObject: {fileID: 1095321351859719}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1883884616498421
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4845059554386150}
+  - component: {fileID: 33912235099457973}
+  - component: {fileID: 23206473299430047}
+  m_Layer: 0
+  m_Name: chair_05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4845059554386150
+Transform:
+  m_GameObject: {fileID: 1883884616498421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.128468, y: 1.707905, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4528996697466159}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33912235099457973
+MeshFilter:
+  m_GameObject: {fileID: 1883884616498421}
+  m_Mesh: {fileID: 4300000, guid: ec86255aa5a468c4990b8781a7ea05e3, type: 2}
+--- !u!23 &23206473299430047
+MeshRenderer:
+  m_GameObject: {fileID: 1883884616498421}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1518264229984413
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4014671507283400}
+  - component: {fileID: 33763724380201104}
+  - component: {fileID: 23359241376744391}
+  m_Layer: 0
+  m_Name: chair_06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4014671507283400
+Transform:
+  m_GameObject: {fileID: 1518264229984413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.241457, y: -1.769196, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4528996697466159}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33763724380201104
+MeshFilter:
+  m_GameObject: {fileID: 1518264229984413}
+  m_Mesh: {fileID: 4300000, guid: a80e0f7a6af68bb44bdb8654b32d69c2, type: 2}
+--- !u!23 &23359241376744391
+MeshRenderer:
+  m_GameObject: {fileID: 1518264229984413}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1280140247635799
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4381881567495256}
+  - component: {fileID: 33613715804321857}
+  - component: {fileID: 23233563101135587}
+  m_Layer: 0
+  m_Name: chair_07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4381881567495256
+Transform:
+  m_GameObject: {fileID: 1280140247635799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.242413, y: 1.705544, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4528996697466159}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33613715804321857
+MeshFilter:
+  m_GameObject: {fileID: 1280140247635799}
+  m_Mesh: {fileID: 4300000, guid: 0103ea37d8c3722468a12a226b2276a9, type: 2}
+--- !u!23 &23233563101135587
+MeshRenderer:
+  m_GameObject: {fileID: 1280140247635799}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 187ff7130d4b6ed4b989c38b1df55d0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

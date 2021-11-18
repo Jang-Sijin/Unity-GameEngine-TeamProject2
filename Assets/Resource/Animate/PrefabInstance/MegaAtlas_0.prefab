@@ -1,0 +1,444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1914894449836208}
+  m_IsPrefabParent: 1
+--- !u!1 &1914894449836208
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4954772390362856}
+  - component: {fileID: 114359560143727057}
+  m_Layer: 0
+  m_Name: MegaAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4954772390362856
+Transform:
+  m_GameObject: {fileID: 1914894449836208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6990021, y: -0.1699023, z: -7.488872E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114359560143727057
+MonoBehaviour:
+  m_GameObject: {fileID: 1914894449836208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c28a98387c65694c8240295f98006a5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 8fa2ca8327edec34e9460cb4b9856a62, type: 3}
+  elementNumber: 0
+  editElements: 0
+  elementsList:
+  - name: Caustic_Abstract_06
+    UV:
+      serializedVersion: 2
+      x: 0.9042969
+      y: 0.8745117
+      width: 0.08447266
+      height: 0.125
+    Imported: 1
+  - name: Caustic_Abstract_06_Color
+    UV:
+      serializedVersion: 2
+      x: 0.8803711
+      y: 0.3706055
+      width: 0.1000977
+      height: 0.125
+    Imported: 1
+  - name: Caustic_BlueRed_Soft
+    UV:
+      serializedVersion: 2
+      x: 0.5024414
+      y: 0.3081055
+      width: 0.125
+      height: 0.0625
+    Imported: 1
+  - name: Caustic_FocusPoint_04
+    UV:
+      serializedVersion: 2
+      x: 0.9042969
+      y: 0.7485352
+      width: 0.08300781
+      height: 0.125
+    Imported: 1
+  - name: Caustic_Spot_05
+    UV:
+      serializedVersion: 2
+      x: 0.08398438
+      y: 0.1142578
+      width: 0.125
+      height: 0.1259766
+    Imported: 1
+  - name: Caustic_Spot_06
+    UV:
+      serializedVersion: 2
+      x: 0.2514648
+      y: 0.0004882813
+      width: 0.125
+      height: 0.1137695
+    Imported: 1
+  - name: Caustic_Spot_07
+    UV:
+      serializedVersion: 2
+      x: 0.3774414
+      y: 0.01025391
+      width: 0.125
+      height: 0.1103516
+    Imported: 1
+  - name: Glint_01
+    UV:
+      serializedVersion: 2
+      x: 0.2514648
+      y: 0.2475586
+      width: 0.25
+      height: 0.25
+    Imported: 1
+  - name: Glint_09
+    UV:
+      serializedVersion: 2
+      x: 0.362793
+      y: 0.7495117
+      width: 0.25
+      height: 0.25
+    Imported: 1
+  - name: Glow_Chroma
+    UV:
+      serializedVersion: 2
+      x: 0.7783203
+      y: 0.1186523
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Glow_Dot
+    UV:
+      serializedVersion: 2
+      x: 0.8398438
+      y: 0.2446289
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Glow_LargeFalloff
+    UV:
+      serializedVersion: 2
+      x: 0.2514648
+      y: 0.4985352
+      width: 0.25
+      height: 0.25
+    Imported: 1
+  - name: Glow_NoneUniform_02
+    UV:
+      serializedVersion: 2
+      x: 0.0004882813
+      y: 0.2412109
+      width: 0.25
+      height: 0.25
+    Imported: 1
+  - name: Iris_Decagon_Chroma
+    UV:
+      serializedVersion: 2
+      x: 0.7543945
+      y: 0.3706055
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Decagon_Soft
+    UV:
+      serializedVersion: 2
+      x: 0.7138672
+      y: 0.2446289
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Decagon_SoftSuper
+    UV:
+      serializedVersion: 2
+      x: 0.628418
+      y: 0.3706055
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Pentagon
+    UV:
+      serializedVersion: 2
+      x: 0.628418
+      y: 0.496582
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Pentagon_Chroma
+    UV:
+      serializedVersion: 2
+      x: 0.7783203
+      y: 0.496582
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Pentagon_Soft
+    UV:
+      serializedVersion: 2
+      x: 0.6523438
+      y: 0.02392578
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Pentagon_SuperSoft
+    UV:
+      serializedVersion: 2
+      x: 0.5878906
+      y: 0.1499023
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Quad
+    UV:
+      serializedVersion: 2
+      x: 0.5024414
+      y: 0.371582
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Quad_Chroma
+    UV:
+      serializedVersion: 2
+      x: 0.7783203
+      y: 0.6225586
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Quad_Soft
+    UV:
+      serializedVersion: 2
+      x: 0.5024414
+      y: 0.4975586
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Quad_SuperSoft
+    UV:
+      serializedVersion: 2
+      x: 0.6523438
+      y: 0.6225586
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Tri
+    UV:
+      serializedVersion: 2
+      x: 0.7783203
+      y: 0.7485352
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Tri_Chroma
+    UV:
+      serializedVersion: 2
+      x: 0.5024414
+      y: 0.6235352
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Tri_Soft
+    UV:
+      serializedVersion: 2
+      x: 0.6523438
+      y: 0.7485352
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Iris_Tri_SuperSoft
+    UV:
+      serializedVersion: 2
+      x: 0.7783203
+      y: 0.8745117
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Misc_Orb
+    UV:
+      serializedVersion: 2
+      x: 0.6523438
+      y: 0.8745117
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Misc_Square
+    UV:
+      serializedVersion: 2
+      x: 0.4619141
+      y: 0.121582
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Misc_Square_SoftSuper
+    UV:
+      serializedVersion: 2
+      x: 0.3359375
+      y: 0.121582
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Shimmer_Long_Chroma_02
+    UV:
+      serializedVersion: 2
+      x: 0.1118164
+      y: 0.7495117
+      width: 0.25
+      height: 0.25
+    Imported: 1
+  - name: Shimmer_Wide_Chroma_02
+    UV:
+      serializedVersion: 2
+      x: 0.0004882813
+      y: 0.4921875
+      width: 0.25
+      height: 0.25
+    Imported: 1
+  - name: Spectrum_Long
+    UV:
+      serializedVersion: 2
+      x: 0.0004882813
+      y: 0.01757813
+      width: 0.2138672
+      height: 0.03515625
+    Imported: 1
+  - name: Spectrum_Point_01
+    UV:
+      serializedVersion: 2
+      x: 0.2099609
+      y: 0.1152344
+      width: 0.125
+      height: 0.125
+    Imported: 1
+  - name: Spectrum_Thick_wide
+    UV:
+      serializedVersion: 2
+      x: 0.0004882813
+      y: 0.05371094
+      width: 0.08251953
+      height: 0.1865234
+    Imported: 1
+  - name: Spectrum_Thin_ExtraWide
+    UV:
+      serializedVersion: 2
+      x: 0.0004882813
+      y: 0.7431641
+      width: 0.1103516
+      height: 0.2563477
+    Imported: 1
+  - name: Spectrum_Thin_Soft
+    UV:
+      serializedVersion: 2
+      x: 0.503418
+      y: 0.01757813
+      width: 0.02197266
+      height: 0.1030273
+    Imported: 1
+  - name: Steak_SoftEnds
+    UV:
+      serializedVersion: 2
+      x: 0.5024414
+      y: 0.2758789
+      width: 0.125
+      height: 0.03125
+    Imported: 1
+  - name: Steak_SuperSoftEnds
+    UV:
+      serializedVersion: 2
+      x: 0.5263672
+      y: 0.05810547
+      width: 0.125
+      height: 0.0625
+    Imported: 1
+  - name: Streak_GrayBlue
+    UV:
+      serializedVersion: 2
+      x: 0.5263672
+      y: 0.02587891
+      width: 0.125
+      height: 0.03125
+    Imported: 1
+  - name: Streak_LongBlue
+    UV:
+      serializedVersion: 2
+      x: 0.0004882813
+      y: 0.0009765625
+      width: 0.25
+      height: 0.015625
+    Imported: 1
+  - name: Streak_LongWhite
+    UV:
+      serializedVersion: 2
+      x: 0.08398438
+      y: 0.06152344
+      width: 0.125
+      height: 0.015625
+    Imported: 1
+  - name: Streak_Orange
+    UV:
+      serializedVersion: 2
+      x: 0.08398438
+      y: 0.078125
+      width: 0.125
+      height: 0.03515625
+    Imported: 1
+  elementNameList:
+  - Caustic_Abstract_06
+  - Caustic_Abstract_06_Color
+  - Caustic_BlueRed_Soft
+  - Caustic_FocusPoint_04
+  - Caustic_Spot_05
+  - Caustic_Spot_06
+  - Caustic_Spot_07
+  - Glint_01
+  - Glint_09
+  - Glow_Chroma
+  - Glow_Dot
+  - Glow_LargeFalloff
+  - Glow_NoneUniform_02
+  - Iris_Decagon_Chroma
+  - Iris_Decagon_Soft
+  - Iris_Decagon_SoftSuper
+  - Iris_Pentagon
+  - Iris_Pentagon_Chroma
+  - Iris_Pentagon_Soft
+  - Iris_Pentagon_SuperSoft
+  - Iris_Quad
+  - Iris_Quad_Chroma
+  - Iris_Quad_Soft
+  - Iris_Quad_SuperSoft
+  - Iris_Tri
+  - Iris_Tri_Chroma
+  - Iris_Tri_Soft
+  - Iris_Tri_SuperSoft
+  - Misc_Orb
+  - Misc_Square
+  - Misc_Square_SoftSuper
+  - Shimmer_Long_Chroma_02
+  - Shimmer_Wide_Chroma_02
+  - Spectrum_Long
+  - Spectrum_Point_01
+  - Spectrum_Thick_wide
+  - Spectrum_Thin_ExtraWide
+  - Spectrum_Thin_Soft
+  - Steak_SoftEnds
+  - Steak_SuperSoftEnds
+  - Streak_GrayBlue
+  - Streak_LongBlue
+  - Streak_LongWhite
+  - Streak_Orange
