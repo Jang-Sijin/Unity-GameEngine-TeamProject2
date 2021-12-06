@@ -294,6 +294,9 @@
      <Reference Include="Antlr3.Runtime">
      <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll</HintPath>
      </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+     </Reference>
      <Reference Include="nunit.framework">
      <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
      </Reference>
@@ -744,6 +747,10 @@
     <ProjectReference Include="AIBehavior.csproj">
       <Project>{6086c067-b7ef-3993-9507-5dde40df00aa}</Project>
       <Name>AIBehavior</Name>
+    </ProjectReference>
+    <ProjectReference Include="YoutubePlayer.csproj">
+      <Project>{d5d7568a-f863-5106-3ff9-f1c4a20bcc67}</Project>
+      <Name>YoutubePlayer</Name>
     </ProjectReference>
     <ProjectReference Include="AIBehaviorNav_Editor.csproj">
       <Project>{b9777a5a-3ff7-4c03-4036-d8951df6dde8}</Project>

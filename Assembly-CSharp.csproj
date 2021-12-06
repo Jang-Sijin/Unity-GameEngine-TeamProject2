@@ -49,8 +49,10 @@
      <Compile Include="Assets\AIBehavior\ExampleScripts\ExamplePlayerBodyTarget.cs" />
      <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\AddHealth.cs" />
+     <Compile Include="Assets\Scripts\UIStopMenuController.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetCurrentStateName.cs" />
      <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.cs" />
+     <Compile Include="Assets\Scripts\Sound\SoundManager.cs" />
      <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\EnemyRangeColorChange.cs" />
      <Compile Include="Assets\AIBehavior\Extras\Astar\MecanimAstarPathScript.cs" />
      <Compile Include="Assets\AIBehavior\ExampleScripts\SceneGenerator.cs" />
@@ -62,6 +64,7 @@
      <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\DemoDoneState.cs" />
      <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\Rotator.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetIsDefending.cs" />
+     <Compile Include="Assets\Scripts\Sound\SetBackGroundVolume.cs" />
      <Compile Include="Assets\AIBehavior\ExampleScripts\PlayerBuildingStats.cs" />
      <Compile Include="Assets\AIBehavior\Extras\Astar\AstarRichAICharacterController.cs" />
      <Compile Include="Assets\AIBehavior\ExampleScripts\Shooter.cs" />
@@ -71,6 +74,7 @@
      <Compile Include="Assets\AIBehavior\ExampleScripts\ExampleLaserAttackComponent.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetKeepAgentUpright.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetStateByIndex.cs" />
+     <Compile Include="Assets\Scripts\Sound\UiMainMenuController.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetUseSightTransform.cs" />
      <Compile Include="Assets\AIBehavior\ExampleScripts\ExampleGotHitComponent.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetStateCount.cs" />
@@ -102,17 +106,20 @@
      <Compile Include="Assets\AIBehavior\Scenes\MultiPlayerExamples\MultiPlayerScripts\MultiPlayerLineOfSightTrigger.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetCurrentStateByIndex.cs" />
      <Compile Include="Assets\AIBehavior\ExampleScripts\CharacterMover.cs" />
+     <Compile Include="Assets\Scripts\Load\LoadSceneManager.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetFOV.cs" />
      <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\AdjustProjectorSizeToSightDistance.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetUseSightTransform.cs" />
      <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\RotationOscillator.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetCurrentDestination.cs" />
+     <Compile Include="Assets\YoutubeTest\VideoController.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetSightDistance.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetStateByName.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetKeepAgentUpright.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetDamageMultiplier.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GotHit.cs" />
      <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Scripts\Sound\SetEffectVolume.cs" />
      <Compile Include="Assets\AIBehavior\ExampleScripts\PlayerStats.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetSightDirection.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetState.cs" />
@@ -128,11 +135,6 @@
      <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\FPSController.cs" />
      <Compile Include="Assets\AIBehavior\ExampleScripts\MoveUpAndDown.cs" />
-     <Compile Include="Assets\Scripts\Sound\UiMainMenuController.cs" />
-     <Compile Include="Assets\Scripts\Sound\SoundManager.cs" />
-     <Compile Include="Assets\Scripts\Sound\SetEffectVolume.cs" />
-     <Compile Include="Assets\Scripts\Sound\SetBackGroundVolume.cs" />
-     <Compile Include="Assets\Scripts\Load\LoadSceneManager.cs" />
      <None Include="Assets\Resource\Resources\camerafilterpack_fx_funk.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_gradients_desert.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_gradients_firegradient.shader" />
@@ -606,6 +608,9 @@
      <Reference Include="Antlr3.Runtime">
      <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll</HintPath>
      </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+     </Reference>
      <Reference Include="netstandard">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
      </Reference>
@@ -1043,6 +1048,10 @@
     <ProjectReference Include="AIBehavior.csproj">
       <Project>{6086c067-b7ef-3993-9507-5dde40df00aa}</Project>
       <Name>AIBehavior</Name>
+    </ProjectReference>
+    <ProjectReference Include="YoutubePlayer.csproj">
+      <Project>{d5d7568a-f863-5106-3ff9-f1c4a20bcc67}</Project>
+      <Name>YoutubePlayer</Name>
     </ProjectReference>
     <ProjectReference Include="AIBehaviorNav_Editor.csproj">
       <Project>{b9777a5a-3ff7-4c03-4036-d8951df6dde8}</Project>

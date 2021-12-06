@@ -17,11 +17,11 @@ public class LoadSceneManager : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // 마우스 좌클릭을 눌렀을 때
-        {
-            startButton.GetComponent<Button>();
-            startButton.onClick.AddListener(fClick);
-        }
+        // if (Input.GetMouseButtonDown(0)) // 마우스 좌클릭을 눌렀을 때
+        // {
+        //     startButton.GetComponent<Button>();
+        //     startButton.onClick.AddListener(fClick);
+        // }
     }
 
     void OnCollisionEnter(Collision collision)
