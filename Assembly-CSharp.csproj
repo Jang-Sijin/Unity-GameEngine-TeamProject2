@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0ee4820f-9ab3-6480-51f1-516b6ebbeb82}</ProjectGuid>
+    <ProjectGuid>{1ff3b438-4bab-2238-2e54-ad03e27a1be6}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -46,6 +46,7 @@
      <Compile Include="Assets\AIBehavior\ExampleScripts\Alarm.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetSightTransform.cs" />
      <Compile Include="Assets\Scripts\ObjectDetectionRaycast.cs" />
+     <Compile Include="Assets\Sample.cs" />
      <Compile Include="Assets\AIBehavior\ExampleScripts\ExamplePlayerBodyTarget.cs" />
      <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\AddHealth.cs" />
@@ -133,7 +134,6 @@
      <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\FPSController.cs" />
      <Compile Include="Assets\AIBehavior\ExampleScripts\MoveUpAndDown.cs" />
-     <Compile Include="Assets\Sample.cs" />
      <None Include="Assets\Resource\Resources\camerafilterpack_fx_funk.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_gradients_desert.shader" />
      <None Include="Assets\Resource\Resources\camerafilterpack_gradients_firegradient.shader" />
@@ -602,20 +602,10 @@
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="MiscUtil">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Core/Dependencies/MiscUtil/MiscUtil.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Core/Dependencies/MiscUtil/MiscUtil.dll</HintPath>
      </Reference>
      <Reference Include="Antlr3.Runtime">
-<<<<<<< Updated upstream
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll</HintPath>
-=======
      <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll</HintPath>
-<<<<<<< Updated upstream
-     </Reference>
-     <Reference Include="Newtonsoft.Json">
-     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -963,100 +953,100 @@
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InternalAPIEngineBridge.001">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="VSSettingsProvider">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InternalAPIEditorBridge.001">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Path.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Postprocessing.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InputSystem">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Postprocessing.Runtime">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Common.Runtime">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.SpriteShape.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Common.Editor">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.SpriteShape.Runtime">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AIBehavior.csproj">
-      <Project>{808cda12-8bf0-ec48-3246-80a0028c63ce}</Project>
+      <Project>{6086c067-b7ef-3993-9507-5dde40df00aa}</Project>
       <Name>AIBehavior</Name>
     </ProjectReference>
     <ProjectReference Include="AIBehaviorNav_Editor.csproj">
-      <Project>{07d79ca7-ad16-8e2b-ceae-cef7b1734437}</Project>
+      <Project>{b9777a5a-3ff7-4c03-4036-d8951df6dde8}</Project>
       <Name>AIBehaviorNav_Editor</Name>
     </ProjectReference>
   </ItemGroup>
