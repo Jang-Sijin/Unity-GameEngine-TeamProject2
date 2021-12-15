@@ -2,8 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class FPSController : MonoBehaviour
 {
+        [Header("UI Settings")]
+        //public GameObject SetActiveUiCommand;
+        public GameObject SetActiveUiPause;
+        //public GameObject SetActiveUiOption;
+        //public GameObject SetActiveUiQuit;
+        public bool UiCheck = false;
+    
         [Header("Movement Settings")]
         public float moveSpeed = 2f; // 이동 속도
         public float crouchSpeed = 0.4f; // 앉기 속도
@@ -97,52 +105,79 @@ public class FPSController : MonoBehaviour
 
         private void Update()
         {
-            if (characterController == null)
-                GetComponent<CharacterController>();
-
-            
-            if (!IsGrounded())
+            // UI settings start
+            if (Input.GetKeyDown(KeyCode.Escape) /*&& !SetActiveUiCommand.activeSelf && !SetActiveUiQuit.activeSelf*/)
             {
-                airTime += Time.deltaTime;
-            }
-            else
-            { 
-                if (airTime > hardLandingTime) 
+                if (!UiCheck)
                 {
+                    Cursor.visible = true;// 마우스 포인터가 보이도록 설정한다.
+                    UiCheck = true;
+                    SetActiveUiPause.SetActive(true);
+                    Cursor.lockState = CursorLockMode.None; // 마우스 포인터가 움직이도록 한다.
+                    Time.timeScale = 0.0f;
+                }
+                else
+                {
+                    Cursor.visible = false;// 마우스 포인터가 보이지 않도록 설정한다.
+                    UiCheck = false;
+                    SetActiveUiPause.SetActive(false);
+                    //SetActiveUiOption.SetActive(false);
+                    Cursor.lockState = CursorLockMode.Locked; // 마우스 포인터가 가운데로 갱신하도록 한다.
+                    Time.timeScale = 1.0f;
+                }
+            }
+            // UI settings end
+            
+            // Player Controller
+            if (!UiCheck)
+            {
+                if (characterController == null)
+                    GetComponent<CharacterController>();
+
+
+                if (!IsGrounded())
+                {
+                    airTime += Time.deltaTime;
+                }
+                else
+                {
+                    if (airTime > hardLandingTime)
+                    {
                         mainCameraAnimator.Play("HardLanding");
                         if (hardLandingSound != null)
                             audioSource.PlayOneShot(hardLandingSound);
 
+                    }
+                    else if (airTime > 0.3f)
+                    {
+                        mainCameraAnimator.Play("SoftLanding");
+                        if (softLandingSound != null)
+                            audioSource.PlayOneShot(softLandingSound);
+                    }
+
+                    airTime = 0;
                 }
-                else if (airTime > 0.3f)
+
+                if (!canMove)
+                    return;
+
+                StandaloneMovement();
+
+                Crouch();
+
+                CharacterMovement();
+                if (mouseLookEnabled && lockCursor)
+                    MouseLook();
+
+                if (!isClimbing)
                 {
-                    mainCameraAnimator.Play("SoftLanding"); 
-                    if (softLandingSound != null) 
-                        audioSource.PlayOneShot(softLandingSound);
+                    characterController.Move(moveDirection * Time.deltaTime);
                 }
 
-                airTime = 0;
-            }
-
-            if (!canMove)
-                return;
-            
-            StandaloneMovement();
-
-            Crouch();
-
-            CharacterMovement();
-             if (mouseLookEnabled && lockCursor)
-                 MouseLook();
-
-            if (!isClimbing)
-            {
-                characterController.Move(moveDirection * Time.deltaTime);
-            }
-
-            if(lastSwimmingState == true)
-            {
-                lastSwimmingState = false;
+                if (lastSwimmingState == true)
+                {
+                    lastSwimmingState = false;
+                }
             }
         }
 

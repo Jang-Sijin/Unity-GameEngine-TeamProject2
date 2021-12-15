@@ -49,6 +49,7 @@
      <Compile Include="Assets\AIBehavior\ExampleScripts\ExamplePlayerBodyTarget.cs" />
      <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\AddHealth.cs" />
+     <Compile Include="Assets\Scripts\UIStopMenuController.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetCurrentStateName.cs" />
      <Compile Include="Assets\AIBehavior\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.cs" />
      <Compile Include="Assets\Scripts\Sound\SoundManager.cs" />
@@ -111,6 +112,7 @@
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetUseSightTransform.cs" />
      <Compile Include="Assets\AIBehavior\AIBehaviorDemoScene\Scripts\RotationOscillator.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetCurrentDestination.cs" />
+     <Compile Include="Assets\YoutubeTest\VideoController.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetSightDistance.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\GetStateByName.cs" />
      <Compile Include="Assets\AIBehavior\Extras\PlayMakerActions\SetKeepAgentUpright.cs" />
@@ -605,17 +607,10 @@
      <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Core/Dependencies/MiscUtil/MiscUtil.dll</HintPath>
      </Reference>
      <Reference Include="Antlr3.Runtime">
-<<<<<<< Updated upstream
-     <HintPath>C:/Users/PS42 8RC/Desktop/Unity-GameEngine-TeamProject2/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll</HintPath>
-=======
      <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll</HintPath>
-<<<<<<< Updated upstream
      </Reference>
      <Reference Include="Newtonsoft.Json">
      <HintPath>C:/Users/user/Desktop/Unity_TeamProject2/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -1054,6 +1049,10 @@
     <ProjectReference Include="AIBehavior.csproj">
       <Project>{808cda12-8bf0-ec48-3246-80a0028c63ce}</Project>
       <Name>AIBehavior</Name>
+    </ProjectReference>
+    <ProjectReference Include="YoutubePlayer.csproj">
+      <Project>{d5d7568a-f863-5106-3ff9-f1c4a20bcc67}</Project>
+      <Name>YoutubePlayer</Name>
     </ProjectReference>
     <ProjectReference Include="AIBehaviorNav_Editor.csproj">
       <Project>{07d79ca7-ad16-8e2b-ceae-cef7b1734437}</Project>
