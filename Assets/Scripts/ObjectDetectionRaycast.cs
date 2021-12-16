@@ -1,3 +1,4 @@
+using UnityEditor.PackageManager;
 using UnityEngine;
 
 public class ObjectDetectionRaycast : MonoBehaviour
@@ -65,6 +66,48 @@ public class ObjectDetectionRaycast : MonoBehaviour
                     // '도어' 스크립트에 있는 '열림' 기능을 실행하여 도어를 열거나 닫습니다.
                     if (dooropening.RotationPending == false) StartCoroutine(hit.collider.GetComponent<DoorRotationLite>().Move());
                 }
+            }
+            else if (hit.collider.tag == "Item")
+            {
+                InReach = true;
+                
+                // 디스플레이가 플레이어 손에 닿는 곳에 있을 때 UI 출력.
+                if (activeUIDoor == false && activeUIDoorPrefab != null)
+                {
+                    activeUIDoorPrefabInstance = Instantiate(activeUIDoorPrefab);
+                    activeUIDoor = true;
+                    activeUIDoorPrefabInstance.transform.SetParent(transform, true); // 플레이어를 텍스트 요소의 상위 개체로 만듦
+                }
+
+
+                if (input.KeyDownPlayerUse()) // '도어' 스크립트에 있는 '열림' 기능을 실행하여 도어를 열거나 닫습니다.
+                {
+                    // 부딪힌 물체에 'Item'라는 이름을 지정합니다.
+                    GameObject Item = hit.transform.gameObject;
+
+                    Animator animator = Item.gameObject.GetComponent<Animator>();
+                    animator.SetBool("isDisappear",true);
+                    Destroy(Item, 2);
+                }
+            }
+            else if (hit.collider.tag == "LightController")
+            {
+                InReach = true;
+                
+                // 디스플레이가 플레이어 손에 닿는 곳에 있을 때 UI 출력.
+                if (activeUIDoor == false && activeUIDoorPrefab != null)
+                {
+                    activeUIDoorPrefabInstance = Instantiate(activeUIDoorPrefab);
+                    activeUIDoor = true;
+                    activeUIDoorPrefabInstance.transform.SetParent(transform, true); // 플레이어를 텍스트 요소의 상위 개체로 만듦
+                }
+
+                Light lightController = hit.transform.gameObject.GetComponentInChildren<Light>();
+                
+                if(lightController.enabled == false)
+                    lightController.enabled = true;
+                else
+                    lightController.enabled = false;
             }
             else
             {
