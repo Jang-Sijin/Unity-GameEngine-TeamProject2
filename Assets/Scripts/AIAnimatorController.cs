@@ -1,25 +1,21 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using AIBehavior;
 using UnityEngine;
+using AIBehavior;
 
-public class Sample : MonoBehaviour
+public class AIAnimatorController : MonoBehaviour
 {
     private AIBehaviors behaviors;
     [SerializeField] private Animator animator;
-
     private void Awake()
     {
         behaviors = GetComponent<AIBehaviors>();
     }
-
     // Start is called before the first frame update
     void Start()
     {
         behaviors.onStateChanged = OnStateChanged;
     }
-
     private void OnStateChanged(BaseState state, BaseState baseState)
     {
         if (state is PatrolState)
@@ -30,7 +26,6 @@ public class Sample : MonoBehaviour
             
         }
     }
-
     // Update is called once per frame
     void Update()
     {

@@ -1271,12 +1271,15 @@ GameObject:
   m_Component:
   - component: {fileID: 2298313602727186539}
   - component: {fileID: 2298313602738387341}
+  - component: {fileID: 969690356105482640}
   - component: {fileID: 2298313602738387379}
   - component: {fileID: 2298313602738387381}
   - component: {fileID: 2298313602713452815}
   - component: {fileID: 2298313602740326383}
   - component: {fileID: 2298313602735242653}
+  - component: {fileID: 6525699650966974053}
   - component: {fileID: 3248808438073917036}
+  - component: {fileID: 4102601199642130430}
   m_Layer: 0
   m_Name: SecurityMan_AI
   m_TagString: Untagged
@@ -1316,6 +1319,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
+--- !u!114 &969690356105482640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2298313602727611467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6261e2abc89f6438feb8e15409fe1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 0}
+  launchPointWeapon: {fileID: 0}
+  aimMetersAboveTarget: 1.5
 --- !u!114 &2298313602738387379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1334,10 +1352,6 @@ MonoBehaviour:
   - {fileID: 2298313602738387377}
   - {fileID: 2298313602738387343}
   - {fileID: 2298313602738387339}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   animationStatesGameObject: {fileID: 2298313602727611469}
 --- !u!114 &2298313602738387381
 MonoBehaviour:
@@ -1361,6 +1375,7 @@ MonoBehaviour:
   states:
   - {fileID: 2298313600861425099}
   - {fileID: 2298313600861425098}
+  - {fileID: 1550824285505693447}
   triggers: []
   objectFinder:
     useCustomTags: 0
@@ -1515,6 +1530,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &6525699650966974053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2298313602727611467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a2ade5b5bdeca47826f79e25482c50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!320 &3248808438073917036
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -1532,6 +1560,18 @@ PlayableDirector:
   m_SceneBindings: []
   m_ExposedReferences:
     m_References: []
+--- !u!114 &4102601199642130430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2298313602727611467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf8c5f6a9a39e740b25d47189b7a477, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2298313602727611469
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,7 +1626,7 @@ MonoBehaviour:
   crossFadeIn: 0
   crossFadeOut: 0
   transitionTime: 0.2
-  foldoutOpen: 1
+  foldoutOpen: 0
 --- !u!114 &2298313602738387377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1661,6 +1701,7 @@ GameObject:
   - component: {fileID: 2298313602727186543}
   - component: {fileID: 2298313600861425099}
   - component: {fileID: 2298313600861425098}
+  - component: {fileID: 1550824285505693447}
   m_Layer: 0
   m_Name: States
   m_TagString: Untagged
@@ -1762,6 +1803,59 @@ MonoBehaviour:
   patrolMode: 1
   continuePatrolMode: 2
   patrolEndedState: {fileID: 2298313600861425099}
+--- !u!114 &1550824285505693447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2298313602727611471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5c837a29603714ea2e72034aa44365, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveId: -1
+  isEnabled: 1
+  name: Attack
+  triggers: []
+  ownsObjectFinder: 0
+  objectFinder:
+    useCustomTags: 0
+    tags:
+    - Player
+    cachePoint: 0
+  movementSpeed: 0
+  rotationSpeed: 360
+  animationStatesComponent: {fileID: 2298313602738387379}
+  animationStates:
+  - {fileID: 0}
+  sounds: []
+  spawnItemsOnStateEnter: 0
+  itemSpawnMode: 0
+  itemSpawnPoint: {x: 0, y: 0, z: 0}
+  itemSpawnTfm: {fileID: 0}
+  exactPosition: 0
+  totalAmount: 1
+  spawnableItems: []
+  variables: []
+  cooldownTime: 0
+  startCooldownOnStateEnd: 1
+  attackDamage: 10
+  plusOrMinusDamage: 0
+  findVisibleTargetsOnly: 1
+  attackAnimName: 
+  attackPoint: 0.3
+  inheritPreviousStateMovement: 0
+  scriptWithAttackMethod: {fileID: 2298313602727186541}
+  methodName: MeleeAttack
+  attackBasedOn: 0
+  initialAttackTime: 0.5
+  attackInterval: 0.5
+  attacksBeforeReload: 10
+  attackCount: 0
+  reloadState: {fileID: 1550824285505693447}
+  noTargetState: {fileID: 2298313600861425098}
 --- !u!1 &2298313602727611473
 GameObject:
   m_ObjectHideFlags: 0

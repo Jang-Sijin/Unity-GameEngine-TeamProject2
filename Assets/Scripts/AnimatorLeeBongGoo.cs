@@ -18,7 +18,7 @@ public class AnimatorLeeBongGoo : MonoBehaviour
     {
         if (speed > 0)
         {
-            _animator.SetBool("isMove", true);
+            _animator.SetBool("isMoving", true);
 
 
             _animator.SetBool("isRun", speed > 2);
