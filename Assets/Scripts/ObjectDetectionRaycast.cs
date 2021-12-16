@@ -90,7 +90,7 @@ public class ObjectDetectionRaycast : MonoBehaviour
                     Destroy(Item, 2);
                 }
             }
-            else if (hit.collider.tag == "LightController")
+            else if (hit.collider.tag == "LightControl")
             {
                 InReach = true;
                 
@@ -102,12 +102,15 @@ public class ObjectDetectionRaycast : MonoBehaviour
                     activeUIDoorPrefabInstance.transform.SetParent(transform, true); // 플레이어를 텍스트 요소의 상위 개체로 만듦
                 }
 
-                Light lightController = hit.transform.gameObject.GetComponentInChildren<Light>();
+                if (input.KeyDownPlayerUse()) // '도어' 스크립트에 있는 '열림' 기능을 실행하여 도어를 열거나 닫습니다.
+                {
+                    Light lightController = hit.transform.gameObject.GetComponentInChildren<Light>();
                 
-                if(lightController.enabled == false)
-                    lightController.enabled = true;
-                else
-                    lightController.enabled = false;
+                    if(lightController.enabled == false)
+                        lightController.enabled = true;
+                    else
+                        lightController.enabled = false;
+                }
             }
             else
             {
